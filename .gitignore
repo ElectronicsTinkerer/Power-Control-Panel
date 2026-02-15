@@ -1,0 +1,18 @@
+# Output Directories
+gerb
+svg
+output
+
+# Files
+*.zip
+*bak
+*~
+*.lck
+_autosave*
+*.csv
+*.xml
+*.kicad_sch.lck
+*.kicad_pcb.lck
+.history
+fp-info-cache
+*-backups
