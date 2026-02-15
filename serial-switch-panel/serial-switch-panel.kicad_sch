@@ -832,9 +832,9 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -12.7 0)
+					(at -10.16 -10.16 0)
 					(length 2.54)
-					(name "P4-"
+					(name "P4+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -850,9 +850,9 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -10.16 0)
+					(at -10.16 -12.7 0)
 					(length 2.54)
-					(name "P4+"
+					(name "P4-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1894,7 +1894,7 @@
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -2769,16 +2769,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 162.56) (xy 71.12 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16a99a05-bfe8-4145-a9ef-8e8e81c76a1f")
-	)
-	(wire
-		(pts
 			(xy 66.04 157.48) (xy 86.36 157.48)
 		)
 		(stroke
@@ -2846,16 +2836,6 @@
 			(type default)
 		)
 		(uuid "1ea701a8-70f8-4937-993b-cba15094c857")
-	)
-	(wire
-		(pts
-			(xy 73.66 165.1) (xy 121.92 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f01a6d6-65e1-4381-add0-b6d769e3cc14")
 	)
 	(wire
 		(pts
@@ -3269,16 +3249,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 162.56) (xy 73.66 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69997df9-e14b-4d0e-a839-b99df181da22")
-	)
-	(wire
-		(pts
 			(xy 58.42 86.36) (xy 60.96 86.36)
 		)
 		(stroke
@@ -3489,6 +3459,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 162.56) (xy 121.92 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9461d301-236d-4e09-b302-fbe4f259388c")
+	)
+	(wire
+		(pts
 			(xy 30.48 63.5) (xy 33.02 63.5)
 		)
 		(stroke
@@ -3609,16 +3589,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 165.1) (xy 71.12 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9faea2a8-2172-4852-9887-45ca162024bf")
-	)
-	(wire
-		(pts
 			(xy 121.92 45.72) (xy 152.4 45.72)
 		)
 		(stroke
@@ -3736,6 +3706,16 @@
 			(type default)
 		)
 		(uuid "abd0dc39-57cc-49cb-b60f-0f70703a4a95")
+	)
+	(wire
+		(pts
+			(xy 66.04 165.1) (xy 121.92 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3023d2-4d1b-4a4c-aad3-e1c878edd00b")
 	)
 	(wire
 		(pts
@@ -4109,16 +4089,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 162.56) (xy 121.92 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4c2bb70-dbdd-4d84-9617-982b9eaacfee")
-	)
-	(wire
-		(pts
 			(xy 40.64 66.04) (xy 55.88 66.04)
 		)
 		(stroke
@@ -4346,16 +4316,6 @@
 			(type default)
 		)
 		(uuid "ff772088-796d-4e22-bc81-c401729a3039")
-	)
-	(wire
-		(pts
-			(xy 71.12 165.1) (xy 73.66 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffba7afb-9f09-4a21-92c3-dd18bc1de34b")
 	)
 	(label "IN_A"
 		(at 45.72 48.26 0)
@@ -10897,7 +10857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm"
 			(at 244.8052 148.59 0)
 			(hide yes)
 			(show_name no)
