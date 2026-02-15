@@ -1503,6 +1503,123 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CUSTOM:Layer_Indicator"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LAY"
+				(at -0.0635 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -0.0635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.016 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.016 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at -1.016 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Layer_Indicator_0_1"
+				(rectangle
+					(start -3.556 0.508)
+					(end -2.032 -0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.651 0.508)
+					(end -0.254 -0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 0.508)
+					(end 1.651 -0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.032 0.508)
+					(end 3.429 -0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Layer_Indicator_1_1"
+				(text "1"
+					(at -2.794 -0.254 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CUSTOM:R"
 			(pin_numbers
 				(hide yes)
@@ -1766,123 +1883,6 @@
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Custom:Layer_Indicator"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LAY"
-				(at 0 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -1.016 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.016 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at -1.016 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at -1.016 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Layer_Indicator_0_1"
-				(rectangle
-					(start -3.556 0.508)
-					(end -2.032 -0.889)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.651 0.508)
-					(end -0.254 -0.889)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 0.508)
-					(end 1.651 -0.889)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.032 0.508)
-					(end 3.429 -0.889)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Layer_Indicator_1_1"
-				(text "1"
-					(at -2.794 -0.254 0)
-					(effects
-						(font
-							(size 0.7 0.7)
 						)
 					)
 				)
@@ -5099,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 241.3 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5176,7 +5176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 48.26 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -5253,7 +5253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 25.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5293,6 +5293,80 @@
 			(project "serial-switch-panel"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CUSTOM:Layer_Indicator")
+		(at 271.78 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f8866c0-3406-4436-a271-45a0e9f60b22")
+		(property "Reference" "LAY1"
+			(at 271.7165 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 271.7165 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Symbol:LayerMarker_2_3.81x2.54mm_TextH1mm_P1.27mm_BottomMirrored"
+			(at 270.764 36.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.764 36.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 270.764 36.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "LAY1")
 					(unit 1)
 				)
 			)
@@ -5798,7 +5872,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 129.54 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6192,7 +6266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 25.4 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7052,7 +7126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 25.4 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7364,7 +7438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 25.4 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7441,7 +7515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:2501551-4"
 			(at 132.08 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8027,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm"
 			(at 109.22 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8388,7 +8462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 25.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8465,7 +8539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 25.4 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8618,7 +8692,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 25.4 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8774,7 +8848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 73.66 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9164,7 +9238,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 25.4 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9838,80 +9912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom:Layer_Indicator")
-		(at 270.51 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c28e2b0a-b7a8-4ffb-967c-d3dce07642c0")
-		(property "Reference" "LAY1"
-			(at 270.4465 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 270.4465 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom_footprints:Layer_Indicator_4"
-			(at 269.494 36.322 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.494 36.322 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 269.494 36.322 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "serial-switch-panel"
-				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
-					(reference "LAY1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CUSTOM:C")
 		(at 182.88 144.78 0)
 		(unit 1)
@@ -10339,7 +10339,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
 			(at 167.64 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10428,7 +10428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 48.26 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10505,7 +10505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 241.3 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10977,7 +10977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 25.4 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -11769,7 +11769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSTOM:Pin_D1.0mm"
 			(at 25.4 66.04 0)
 			(hide yes)
 			(show_name no)
