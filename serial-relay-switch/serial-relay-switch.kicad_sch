@@ -10873,7 +10873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 63.5 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11302,7 +11302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 297.18 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13575,7 +13575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 276.86 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -14155,7 +14155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 50.8 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14737,7 +14737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 154.94 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15247,7 +15247,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 297.18 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16134,7 +16134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 284.48 60.198 90)
 			(hide yes)
 			(show_name no)
@@ -16213,7 +16213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 297.18 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16381,7 +16381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 347.98 204.978 90)
 			(hide yes)
 			(show_name no)
@@ -16788,7 +16788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 347.98 60.198 90)
 			(hide yes)
 			(show_name no)
@@ -16943,7 +16943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 284.48 156.718 90)
 			(hide yes)
 			(show_name no)
@@ -17893,7 +17893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 109.22 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18948,7 +18948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 347.98 156.718 90)
 			(hide yes)
 			(show_name no)
@@ -19105,7 +19105,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 284.48 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -19266,7 +19266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 360.68 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -19925,7 +19925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 347.98 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -20082,7 +20082,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 360.68 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -20327,7 +20327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 360.68 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -20418,7 +20418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 154.94 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -20588,7 +20588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 360.68 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -21231,7 +21231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 264.16 204.978 90)
 			(hide yes)
 			(show_name no)
