@@ -16,3 +16,5 @@ _autosave*
 .history
 fp-info-cache
 *-backups
+*.FCBak
+
