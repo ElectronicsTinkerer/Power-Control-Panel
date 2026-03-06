@@ -2193,7 +2193,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "CUSTOM:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "1c043bd5-8f8a-4d81-bf45-8d6ac92bc0d2")
 		(at 204.14 104.84)
@@ -2233,7 +2233,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2255,6 +2255,28 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "89cd0f59-3161-4c20-b4e1-e4d9fffc0b9d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "093fd569-4522-4115-bc1e-1947f89b81f7")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -4297,7 +4319,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "CUSTOM:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "3255d0f7-4c64-411d-ad8e-2c029e651c96")
 		(at 122.86 54.04)
@@ -4337,7 +4359,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4359,6 +4381,28 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "22f8255b-ae01-4bc9-86b0-ea14776e3875")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "10265651-1e93-452d-9423-ed9cce4da897")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -8259,7 +8303,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "CUSTOM:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "6e48b142-73b7-400d-8f38-ead651d9da1b")
 		(at 204.14 46.42)
@@ -8299,7 +8343,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8321,6 +8365,28 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "6733cfbc-c496-4170-b088-a32e243fb719")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "84ebb9c1-5264-4b2a-bf9c-0ef708b7f1c1")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -10745,7 +10811,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "CUSTOM:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "9533ebef-cd32-47d4-af7c-5cab6a7323a8")
 		(at 41.58 46.42)
@@ -10785,7 +10851,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10807,6 +10873,28 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "400dcefa-ecf7-406c-b7e7-455af5698211")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "1c0a579c-1999-4eef-883f-7b4d0b59e182")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -12487,7 +12575,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "CUSTOM:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "b358fc7a-a469-4bec-a2ed-9c84f0848aef")
 		(at 41.58 104.84)
@@ -12527,7 +12615,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12549,6 +12637,28 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "7395ac82-e9b2-4c06-ba0c-41babda632f3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "eee2faa0-6b09-4e70-90b5-d41317430d7c")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -18852,6 +18962,158 @@
 				(bold yes)
 			)
 			(justify top)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "021843a7-6b9f-4470-98bf-d30de5698d3e")
+		(pts
+			(xy 204.14 104.84) (xy 204.14 46.42)
+		)
+		(height 11.43)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2.3"
+			(at 214.42 75.63 90)
+			(layer "Dwgs.User")
+			(uuid "021843a7-6b9f-4470-98bf-d30de5698d3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "508112aa-a08a-4fc8-aad3-20b40d30ec59")
+		(pts
+			(xy 122.86 54.04) (xy 204.14 46.42)
+		)
+		(height -21.59)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3.2"
+			(at 163.5 31.3 0)
+			(layer "Dwgs.User")
+			(uuid "508112aa-a08a-4fc8-aad3-20b40d30ec59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "762ebb9a-b138-434d-ab85-e909f7830bf4")
+		(pts
+			(xy 204.14 46.42) (xy 122.86 54.04)
+		)
+		(height 7.874)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "0.3"
+			(at 210.864 50.23 90)
+			(layer "Dwgs.User")
+			(uuid "762ebb9a-b138-434d-ab85-e909f7830bf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "f393911e-95e7-4ea7-8bd3-ea62d65965d7")
+		(pts
+			(xy 204.14 104.84) (xy 41.58 104.84)
+		)
+		(height 14.478)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "6.4"
+			(at 122.86 118.168 0)
+			(layer "Dwgs.User")
+			(uuid "f393911e-95e7-4ea7-8bd3-ea62d65965d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment

@@ -1936,7 +1936,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "CUSTOM:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "32865013-ac47-46e0-907c-49a1b848d3f9")
 		(at 138.1 111.19)
@@ -1957,7 +1957,6 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "659e5d77-818f-4af7-871d-2a4c9f44abcb")
 			(effects
 				(font
@@ -1999,6 +1998,28 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "e0f59577-52ed-4962-9155-b7f39b527fe5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "70137114-d658-4d66-b9c8-70bbe182e4e5")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -2852,7 +2873,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "CUSTOM:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "4fcbed05-da20-403f-a9ed-3ca36ee86acb")
 		(at 103.81 111.19)
@@ -2873,7 +2894,6 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "42fc8703-73b2-4b5b-bd48-aa4eab71d868")
 			(effects
 				(font
@@ -2915,6 +2935,28 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "2e3a17b4-86c4-4c8f-b7f4-51fb99fb82f0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "196a1641-2d4f-44de-ae33-23ca325d12b5")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -9715,7 +9757,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3"
+	(footprint "CUSTOM:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "f7be7529-5801-486a-b0b3-6cf679c9bde5")
 		(at 103.81 87.06)
@@ -9736,7 +9778,6 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "637c03b0-4280-4773-99dd-494d9f0d0eae")
 			(effects
 				(font
@@ -9778,6 +9819,28 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "6e8f13f1-9c2f-47e2-a2df-35cc3c49c8d3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "e02bb1ca-e0c2-4032-a307-04fca4bc024f")
+		)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
