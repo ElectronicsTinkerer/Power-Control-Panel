@@ -10,6 +10,11 @@ This directory contains all the 2D/3D models for components which are 3D printed
 ├── 5mm-light-cover-decorator-ring-Fillet.step 
 ├── 5mm-light-cover.FCStd                      # LED diffuser
 ├── 5mm-light-cover-Revolve.step
+├── Front-Panel-Assy.FCStd                     # Minimal assembly to check part alignment
+├── Front-Panel.FCStd                          # User-facing front panel
+├── Front-Panel-Unfold.dxf                     # FP. Order 0.1" sheet metal
+├── Front-Panel-Rear-Plate.FCStd               # Mounting plate for switches and FP PCB
+├── Front-Panel-Rear-Plate-Unfold.dxf          # FP PCB plate. 0.1" 5052 Al, K=0.4, R=0.125", 90 degree bend
 ├── Paddle-Switch-Bracket-Cut2.step            # Mount/pivot bracket for paddle switch
 ├── Paddle-Switch-Bracket-Cut.step             # Mount/pivot, slightly wider for 3D printing
 ├── Paddle-Switch-Bracket.FCStd
