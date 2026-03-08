@@ -4444,6 +4444,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Relay:G2RL-1-E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5172,6 +5295,28 @@
 		)
 		(uuid "02ed1b0f-bdbf-43d8-b3cc-4684570b8382")
 	)
+	(text "SCAN_IN"
+		(exclude_from_sim no)
+		(at 182.88 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0adf21ce-f13c-4cd2-a87a-6b8981a30a48")
+	)
+	(text "'166 internal count"
+		(exclude_from_sim no)
+		(at 182.88 260.985 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1dfe1191-9c92-43fe-bd34-0cd1b70fe26d")
+	)
 	(text "* SI defaults LOW"
 		(exclude_from_sim no)
 		(at 109.855 248.92 0)
@@ -5204,6 +5349,28 @@
 		)
 		(uuid "8841195b-7d26-4803-bea5-f29793c723c9")
 	)
+	(text "CLK"
+		(exclude_from_sim no)
+		(at 182.88 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d42a279-5dc7-4875-96b2-c88ba8a14411")
+	)
+	(text "COUNT_RCO"
+		(exclude_from_sim no)
+		(at 182.88 267.335 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d6ffbac-2602-4ae1-9e60-41e1ac19372f")
+	)
 	(text "NOTE: All signal diff pairs are\nreversed from standard Ethernet polarity!"
 		(exclude_from_sim no)
 		(at 109.22 254 0)
@@ -5226,11 +5393,61 @@
 		)
 		(uuid "c9f077c9-f3bf-4407-8c82-ce6e59891db6")
 	)
+	(text "'595 internal reg"
+		(exclude_from_sim no)
+		(at 182.88 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d215bae1-5c1e-46e7-a522-cd5a2a313f36")
+	)
+	(text "'595 output reg"
+		(exclude_from_sim no)
+		(at 182.88 280.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5512b19-5d96-4c34-a61e-ce581b51893d")
+	)
+	(text "OUTPUT_UPDATE"
+		(exclude_from_sim no)
+		(at 182.88 277.495 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8894a4c-24c1-452e-a214-c3dbab94a65c")
+	)
+	(text "RECEIVE_CLK"
+		(exclude_from_sim no)
+		(at 182.88 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "faa51684-0183-4e48-b43f-fbd056094418")
+	)
 	(junction
 		(at 101.6 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "049c6ff0-8ae8-402b-ac0d-bd5f3fba2da4")
+	)
+	(junction
+		(at 167.64 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04c38ad3-8204-4010-a82c-023c4d99643d")
 	)
 	(junction
 		(at 35.56 27.94)
@@ -5291,6 +5508,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "326eee72-6164-461c-bf60-a71e6176bbb4")
+	)
+	(junction
+		(at 167.64 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "431a7fc0-a412-443a-a8b9-a84e95562982")
 	)
 	(junction
 		(at 50.8 66.04)
@@ -5566,6 +5789,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 35.56) (xy 167.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044d7f28-22f7-4da2-93be-74ac1fbe2ea1")
+	)
+	(wire
+		(pts
 			(xy 370.84 142.24) (xy 370.84 144.78)
 		)
 		(stroke
@@ -5813,6 +6046,16 @@
 			(type default)
 		)
 		(uuid "17d511e9-eef9-4ff2-a439-4d5ffd73a216")
+	)
+	(wire
+		(pts
+			(xy 170.18 35.56) (xy 167.64 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181ddfed-9654-4301-92ec-425a79c64877")
 	)
 	(wire
 		(pts
@@ -6903,6 +7146,16 @@
 			(type default)
 		)
 		(uuid "6e3952da-d965-4a80-902f-e367f6afd18b")
+	)
+	(wire
+		(pts
+			(xy 167.64 48.26) (xy 167.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e71ea38-3122-48ca-b48a-49d88b0e1f31")
 	)
 	(wire
 		(pts
@@ -8226,6 +8479,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 40.64) (xy 167.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ff4bac-9148-4738-8c56-9db4406f5e21")
+	)
+	(wire
+		(pts
 			(xy 30.48 20.32) (xy 30.48 27.94)
 		)
 		(stroke
@@ -8383,6 +8646,16 @@
 			(type default)
 		)
 		(uuid "dcd47466-485b-48d3-8285-f1f2309e72c2")
+	)
+	(wire
+		(pts
+			(xy 167.64 45.72) (xy 170.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de10f008-f35a-41aa-8397-48e85e0035e7")
 	)
 	(wire
 		(pts
@@ -8773,6 +9046,16 @@
 			(type default)
 		)
 		(uuid "fd89ec27-79cb-4440-8b18-95fe89522b79")
+	)
+	(wire
+		(pts
+			(xy 170.18 40.64) (xy 167.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe110fbb-b43f-428c-9cb2-ccbab85b5fe2")
 	)
 	(wire
 		(pts
@@ -9748,19 +10031,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 175.26 35.56 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 172.72 35.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "042d257a-fd0c-486e-b60c-8421a031a97e")
 		(property "Reference" "H3"
-			(at 177.8 34.2899 0)
+			(at 176.53 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9771,7 +10053,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 177.8 36.8299 0)
+			(at 176.53 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9781,8 +10063,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CUSTOM:MountingHole_3.2mm_M3"
-			(at 175.26 35.56 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 172.72 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9793,7 +10075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 35.56 0)
+			(at 172.72 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9803,8 +10085,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 175.26 35.56 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 172.72 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9813,6 +10095,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "f861d79f-6848-4b33-978e-f34f2a1da177")
 		)
 		(instances
 			(project "serial-relay-switch"
@@ -10963,7 +11248,7 @@
 			(uuid "616bdac0-9f3d-449b-9b87-acdb545ddd67")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "U17")
 					(unit 1)
@@ -11115,7 +11400,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "LAY1")
 					(unit 1)
@@ -11813,7 +12098,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 175.26 30.48 0)
+		(at 173.99 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11824,7 +12109,7 @@
 		(fields_autoplaced yes)
 		(uuid "326ff072-41a7-4430-95c5-0b2ecb0925fe")
 		(property "Reference" "H2"
-			(at 177.8 29.2099 0)
+			(at 176.53 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11835,7 +12120,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 177.8 31.7499 0)
+			(at 176.53 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11846,7 +12131,7 @@
 			)
 		)
 		(property "Footprint" "CUSTOM:MountingHole_3.2mm_M3"
-			(at 175.26 30.48 0)
+			(at 173.99 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11857,7 +12142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 30.48 0)
+			(at 173.99 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11868,7 +12153,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 175.26 30.48 0)
+			(at 173.99 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12659,7 +12944,7 @@
 			(uuid "37f92cd0-c000-45e4-b45a-55c06b785d71")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "J1")
 					(unit 1)
@@ -12746,19 +13031,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 175.26 40.64 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 172.72 40.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4964fdf3-2985-4221-b533-4a561848ac13")
 		(property "Reference" "H4"
-			(at 177.8 39.3699 0)
+			(at 176.53 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12769,7 +13053,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 177.8 41.9099 0)
+			(at 176.53 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12779,8 +13063,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CUSTOM:MountingHole_3.2mm_M3"
-			(at 175.26 40.64 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12791,7 +13075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 40.64 0)
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12801,8 +13085,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 175.26 40.64 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12811,6 +13095,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "46d5847a-5846-445e-ad1d-0abf254a6628")
 		)
 		(instances
 			(project "serial-relay-switch"
@@ -13725,7 +14012,7 @@
 			(uuid "01ca4ae8-145c-42d9-a484-58f637936084")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "K1")
 					(unit 1)
@@ -14225,7 +14512,7 @@
 			(uuid "338f3d67-a94a-45f0-a465-cf23d431ff9a")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "D1")
 					(unit 1)
@@ -14794,7 +15081,7 @@
 			(uuid "d2b41ac5-b399-424b-8d6c-322974f3aa1d")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "U14")
 					(unit 1)
@@ -15216,7 +15503,7 @@
 			(uuid "2e69554e-257a-4c7e-95fe-5f657b4f798c")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "J2")
 					(unit 1)
@@ -15306,7 +15593,7 @@
 			(uuid "769cf996-42a7-4ea8-8ade-b24900d9eec9")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "D2")
 					(unit 1)
@@ -15390,7 +15677,7 @@
 			(uuid "ec4236b2-8df2-4872-a450-cc79cafd5b4a")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "U3")
 					(unit 1)
@@ -15731,7 +16018,7 @@
 		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15792,7 +16079,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "#SYM1")
 					(unit 1)
@@ -16105,7 +16392,7 @@
 			(uuid "abc529a7-8ceb-4b1a-9c5b-edab3220dab1")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "R1")
 					(unit 1)
@@ -16769,7 +17056,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 175.26 25.4 0)
+		(at 173.99 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16780,7 +17067,7 @@
 		(fields_autoplaced yes)
 		(uuid "8edfd9ce-dc83-48e1-a637-85fbaf430bb3")
 		(property "Reference" "H1"
-			(at 177.8 24.1299 0)
+			(at 176.53 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16791,7 +17078,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 177.8 26.6699 0)
+			(at 176.53 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16802,7 +17089,7 @@
 			)
 		)
 		(property "Footprint" "CUSTOM:MountingHole_3.2mm_M3"
-			(at 175.26 25.4 0)
+			(at 173.99 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16813,7 +17100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 25.4 0)
+			(at 173.99 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16824,7 +17111,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 175.26 25.4 0)
+			(at 173.99 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17638,19 +17925,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 175.26 45.72 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 172.72 45.72 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9bc127f3-3376-4459-a329-8eabf65b0f12")
 		(property "Reference" "H5"
-			(at 177.8 44.4499 0)
+			(at 176.53 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17661,7 +17947,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 177.8 46.9899 0)
+			(at 176.53 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17671,8 +17957,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CUSTOM:MountingHole_3.2mm_M3"
-			(at 175.26 45.72 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 172.72 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17683,7 +17969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 45.72 0)
+			(at 172.72 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17693,8 +17979,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 175.26 45.72 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 172.72 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17703,6 +17989,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "05299d52-dc2d-40fb-93fe-4514998f7287")
 		)
 		(instances
 			(project "serial-relay-switch"
@@ -17949,7 +18238,7 @@
 			(uuid "2ae30f77-6621-4573-93e6-9774e5970794")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "U16")
 					(unit 1)
@@ -18273,6 +18562,84 @@
 			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad353cb2-8b32-47e2-ab2e-b9db60b95be0")
+		(property "Reference" "#PWR032"
+			(at 167.64 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c56c5163-efab-414d-b54f-a5b7b65c3aad")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -18677,7 +19044,7 @@
 			(uuid "6c0b2d87-a679-4fce-ba1b-21c12d12dfad")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "U1")
 					(unit 1)
@@ -19578,7 +19945,7 @@
 			(uuid "c35f14f9-369c-4dff-85af-e197c805acbb")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "PS1")
 					(unit 1)
@@ -20474,7 +20841,7 @@
 			(uuid "43d4fe6c-194d-4c68-9154-7b03369e3a66")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "U15")
 					(unit 1)
@@ -20556,7 +20923,7 @@
 			(uuid "9c81265f-7128-44cf-bc83-f8b0c0f4ea65")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "C3")
 					(unit 1)
@@ -20962,7 +21329,7 @@
 			(uuid "813501f6-8ece-46e4-a02d-87aeb66d24d4")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "#FLG01")
 					(unit 1)
@@ -21542,7 +21909,7 @@
 			(uuid "c0d1b95c-c4d0-49f0-80b0-7e4dba41c2cd")
 		)
 		(instances
-			(project ""
+			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "U2")
 					(unit 1)

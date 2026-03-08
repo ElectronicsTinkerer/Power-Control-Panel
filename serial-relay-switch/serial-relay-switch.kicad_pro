@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.45,
-          "width": 1.45
+          "drill": 0.0,
+          "height": 5.5,
+          "width": 5.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -243,11 +243,13 @@
       "zones_allow_external_fillets": true
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -531,7 +533,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "output",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -655,7 +657,7 @@
         "uuid": "6e8e0d39-e51b-4511-a712-1d92a774977f"
       }
     ],
-    "used_designators": "H5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
