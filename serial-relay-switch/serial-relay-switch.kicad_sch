@@ -1515,7 +1515,7 @@
 			(symbol "2501551-4_1_1"
 				(rectangle
 					(start -7.62 13.97)
-					(end 7.62 -13.97)
+					(end 7.62 -16.51)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1769,6 +1769,24 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -15.24 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5510,6 +5528,12 @@
 		(uuid "326eee72-6164-461c-bf60-a71e6176bbb4")
 	)
 	(junction
+		(at 142.24 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "351a49ab-55fc-4148-aba8-66566fc61647")
+	)
+	(junction
 		(at 167.64 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5544,12 +5568,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "581e5602-6fb1-4c2d-9918-74244bb7c1d4")
-	)
-	(junction
-		(at 142.24 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60c76557-a91b-4e3a-b723-70a26b22437d")
 	)
 	(junction
 		(at 45.72 139.7)
@@ -5706,6 +5724,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e08aabfd-7c69-496b-b805-0b0bee4869c3")
+	)
+	(junction
+		(at 142.24 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e379549b-c645-4c78-9d46-c0044cb150b7")
 	)
 	(junction
 		(at 276.86 53.34)
@@ -6509,6 +6533,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 233.68) (xy 142.24 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4f41de-e5fb-41da-a0a7-1909f8122f2d")
+	)
+	(wire
+		(pts
 			(xy 353.06 106.68) (xy 355.6 106.68)
 		)
 		(stroke
@@ -6646,6 +6680,16 @@
 			(type default)
 		)
 		(uuid "44ff8c90-7b81-453b-a93e-5bd805275761")
+	)
+	(wire
+		(pts
+			(xy 139.7 233.68) (xy 142.24 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e3cf76-9e4b-48cd-966a-2ab7f795d496")
 	)
 	(wire
 		(pts
@@ -14600,7 +14644,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 233.68 0)
+		(at 142.24 236.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14611,7 +14655,7 @@
 		(fields_autoplaced yes)
 		(uuid "63df641b-d9cd-42fa-8c57-4c7162b648ea")
 		(property "Reference" "#PWR025"
-			(at 142.24 240.03 0)
+			(at 142.24 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14622,7 +14666,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 238.76 0)
+			(at 142.24 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14632,7 +14676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 233.68 0)
+			(at 142.24 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14643,7 +14687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 233.68 0)
+			(at 142.24 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14654,7 +14698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 233.68 0)
+			(at 142.24 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15501,6 +15545,9 @@
 		)
 		(pin "3"
 			(uuid "2e69554e-257a-4c7e-95fe-5f657b4f798c")
+		)
+		(pin "S"
+			(uuid "a695fa23-7f80-4727-8c6c-713e1bbdf97d")
 		)
 		(instances
 			(project "serial-relay-switch"
