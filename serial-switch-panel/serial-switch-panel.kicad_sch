@@ -678,7 +678,7 @@
 			(symbol "2501551-4_1_1"
 				(rectangle
 					(start -7.62 13.97)
-					(end 7.62 -13.97)
+					(end 7.62 -16.51)
 					(stroke
 						(width 0)
 						(type solid)
@@ -932,6 +932,24 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -15.24 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2494,6 +2512,12 @@
 		(uuid "1532be67-0d1d-4700-8da8-f298c4c9c59e")
 	)
 	(junction
+		(at 149.86 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1927107c-3847-4920-90f2-acbc64b70116")
+	)
+	(junction
 		(at 86.36 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3346,6 +3370,16 @@
 			(type default)
 		)
 		(uuid "6aa31ca5-7e34-4fbc-9d07-e72dfe4f8d54")
+	)
+	(wire
+		(pts
+			(xy 149.86 167.64) (xy 149.86 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b20a1dc-d677-46c1-93f8-3ca4414e1ef4")
 	)
 	(wire
 		(pts
@@ -4346,6 +4380,16 @@
 			(type default)
 		)
 		(uuid "ee908626-efe3-4649-b23e-9866878a2000")
+	)
+	(wire
+		(pts
+			(xy 147.32 167.64) (xy 149.86 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eecbb404-1d0a-492e-bfd9-18f8f2c1fa69")
 	)
 	(wire
 		(pts
@@ -5484,7 +5528,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "serial-switch-panel"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "LAY1")
 					(unit 1)
@@ -6501,7 +6545,7 @@
 			(uuid "09c3bc67-e869-4371-8fa2-fef9c404b1f4")
 		)
 		(instances
-			(project ""
+			(project "serial-switch-panel"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "#PWR01")
 					(unit 1)
@@ -7372,7 +7416,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 167.64 0)
+		(at 149.86 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7383,7 +7427,7 @@
 		(fields_autoplaced yes)
 		(uuid "63df641b-d9cd-42fa-8c57-4c7162b648ea")
 		(property "Reference" "#PWR025"
-			(at 149.86 173.99 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7394,7 +7438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 172.72 0)
+			(at 149.86 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7404,7 +7448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 167.64 0)
+			(at 149.86 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7415,7 +7459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 167.64 0)
+			(at 149.86 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7426,7 +7470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 167.64 0)
+			(at 149.86 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,8 +7748,11 @@
 		(pin "3"
 			(uuid "2e69554e-257a-4c7e-95fe-5f657b4f798c")
 		)
+		(pin "S"
+			(uuid "3b209e43-bbd9-4283-8ed7-b97e8815e83a")
+		)
 		(instances
-			(project ""
+			(project "serial-switch-panel"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "J2")
 					(unit 1)
@@ -8302,7 +8349,7 @@
 			(uuid "6afb0453-6248-4d31-9e8a-383e4997defb")
 		)
 		(instances
-			(project ""
+			(project "serial-switch-panel"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "U1")
 					(unit 1)
@@ -10507,7 +10554,7 @@
 			(uuid "ea7bb7ee-60ec-4d9c-a374-0d34673c9fee")
 		)
 		(instances
-			(project ""
+			(project "serial-switch-panel"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "U3")
 					(unit 1)
@@ -11215,7 +11262,7 @@
 			(uuid "0571cec8-5fab-4670-be42-8454ed0db43f")
 		)
 		(instances
-			(project ""
+			(project "serial-switch-panel"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "R1")
 					(unit 1)
@@ -11453,7 +11500,7 @@
 			(uuid "9c81265f-7128-44cf-bc83-f8b0c0f4ea65")
 		)
 		(instances
-			(project ""
+			(project "serial-switch-panel"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "C3")
 					(unit 1)
@@ -11531,7 +11578,7 @@
 			(uuid "813501f6-8ece-46e4-a02d-87aeb66d24d4")
 		)
 		(instances
-			(project ""
+			(project "serial-switch-panel"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "#FLG01")
 					(unit 1)
@@ -11848,7 +11895,7 @@
 			(uuid "a415e134-42b2-4b0d-b19c-7cca632d7f83")
 		)
 		(instances
-			(project ""
+			(project "serial-switch-panel"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "#PWR02")
 					(unit 1)
@@ -12182,7 +12229,7 @@
 			(uuid "c0d1b95c-c4d0-49f0-80b0-7e4dba41c2cd")
 		)
 		(instances
-			(project ""
+			(project "serial-switch-panel"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "U2")
 					(unit 1)
