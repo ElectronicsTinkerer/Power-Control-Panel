@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "6e8e0d39-e51b-4511-a712-1d92a774977f")
@@ -657,7 +657,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "74xx:74HCT595"
+		(symbol "74xx:74HC594"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -673,7 +673,7 @@
 					)
 				)
 			)
-			(property "Value" "74HCT595"
+			(property "Value" "74HC594"
 				(at -7.62 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -694,7 +694,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc594.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -705,7 +705,7 @@
 					)
 				)
 			)
-			(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(property "Description" "8-Bit Shift Registers With Output Registers"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -716,7 +716,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "HCTMOS SR 3State"
+			(property "ki_keywords" "HCMOS SR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -738,8 +738,8 @@
 					)
 				)
 			)
-			(symbol "74HCT595_1_0"
-				(pin tri_state line
+			(symbol "74HC594_1_0"
+				(pin output line
 					(at 10.16 7.62 180)
 					(length 2.54)
 					(name "QB"
@@ -757,7 +757,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin output line
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "QC"
@@ -775,7 +775,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin output line
 					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "QD"
@@ -793,7 +793,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin output line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name "QE"
@@ -811,7 +811,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin output line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "QF"
@@ -829,7 +829,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin output line
 					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "QG"
@@ -847,7 +847,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin output line
 					(at 10.16 -7.62 180)
 					(length 2.54)
 					(name "QH"
@@ -958,7 +958,7 @@
 				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "~{OE}"
+					(name "~{RCLR}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -991,7 +991,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin output line
 					(at 10.16 10.16 180)
 					(length 2.54)
 					(name "QA"
@@ -1028,7 +1028,7 @@
 					)
 				)
 			)
-			(symbol "74HCT595_1_1"
+			(symbol "74HC594_1_1"
 				(rectangle
 					(start -7.62 12.7)
 					(end 7.62 -15.24)
@@ -3016,7 +3016,159 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CUSTOM:SZNUD3124LT1G"
+		(symbol "CUSTOM:STM1818T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U4"
+				(at -0.635 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "STM1818T"
+				(at -0.635 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/389/stm1810-1851202.pdf"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power on Reset + Manual Reset Monitor, 3.06V nominal reset"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "POR, reset monitor, manual reset"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO*92* SO*23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STM1818T_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "STM1818T_1_1"
+				(pin open_collector inverted
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CUSTOM:SZNUD3124DMT1G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3032,7 +3184,7 @@
 					)
 				)
 			)
-			(property "Value" "SZNUD3124LT1G"
+			(property "Value" "SZNUD3124DMT1G"
 				(at 11.43 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3042,7 +3194,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3064,11 +3216,21 @@
 					)
 				)
 			)
-			(property "Description" "Automotive Inductive Load Driver"
+			(property "Description" "Automotive Dual Inductive Load Driver"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3086,7 +3248,7 @@
 					)
 				)
 			)
-			(symbol "SZNUD3124LT1G_0_1"
+			(symbol "SZNUD3124DMT1G_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -1.27 0)
@@ -3256,7 +3418,7 @@
 					)
 				)
 			)
-			(symbol "SZNUD3124LT1G_1_1"
+			(symbol "SZNUD3124DMT1G_1_1"
 				(circle
 					(center 2.54 2.032)
 					(radius 0.254)
@@ -3290,8 +3452,8 @@
 						(type outline)
 					)
 				)
-				(pin input line
-					(at -2.54 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -3308,8 +3470,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -3336,7 +3498,96 @@
 							)
 						)
 					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SZNUD3124DMT1G_2_1"
+				(circle
+					(center 2.54 2.032)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 3.175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 2.54 -2.032)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5474,13 +5725,7 @@
 		(uuid "1ae47dd8-b6be-4163-883b-ec4f063312b0")
 	)
 	(junction
-		(at 276.86 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bf97b7a-4080-4c00-8ccb-dc9ea68238e8")
-	)
-	(junction
-		(at 340.36 149.86)
+		(at 271.78 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22033c27-2797-48fc-8041-8a017a271fb0")
@@ -5516,7 +5761,7 @@
 		(uuid "2e4d70bd-5cf6-4d2a-9474-c26df76d005f")
 	)
 	(junction
-		(at 340.36 198.12)
+		(at 271.78 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "309211cd-ec23-4d18-96a5-2b419344b8b7")
@@ -5552,7 +5797,13 @@
 		(uuid "49bd216d-e90e-4500-aa42-15ad07a909b1")
 	)
 	(junction
-		(at 340.36 53.34)
+		(at 271.78 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4be53035-d89e-4fcd-aa8f-eb4e687d10ec")
+	)
+	(junction
+		(at 271.78 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d13cb83-bcf2-4180-89b8-a3b35facf7c5")
@@ -5568,6 +5819,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "581e5602-6fb1-4c2d-9918-74244bb7c1d4")
+	)
+	(junction
+		(at 271.78 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bdaa4d8-1412-4a36-86ef-ac68c831f078")
 	)
 	(junction
 		(at 45.72 139.7)
@@ -5598,12 +5855,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e7de244-699d-4c24-87c0-aa7131d41a4d")
-	)
-	(junction
-		(at 276.86 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81c0be4f-f1cf-4556-a8af-6cc36f57b27c")
 	)
 	(junction
 		(at 38.1 33.02)
@@ -5672,7 +5923,13 @@
 		(uuid "b162c50a-ce82-4fbe-bd27-162062911789")
 	)
 	(junction
-		(at 340.36 101.6)
+		(at 271.78 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b40cee9a-4dc3-46c7-9c8c-91c788dbd31d")
+	)
+	(junction
+		(at 271.78 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b88b46a1-834a-4028-9500-657779851f41")
@@ -5732,16 +5989,10 @@
 		(uuid "e379549b-c645-4c78-9d46-c0044cb150b7")
 	)
 	(junction
-		(at 276.86 53.34)
+		(at 271.78 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e39ee9ca-c36e-468d-8b2f-4d0c57129cbe")
-	)
-	(junction
-		(at 256.54 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e438274e-50bc-4344-bd28-c5512845a916")
+		(uuid "f6f5c8dd-ed33-4397-b497-e68401f752d9")
 	)
 	(no_connect
 		(at 76.2 127)
@@ -5863,7 +6114,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 203.2) (xy 340.36 203.2)
+			(xy 276.86 218.44) (xy 271.78 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5923,7 +6174,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 154.94) (xy 365.76 154.94)
+			(xy 294.64 170.18) (xy 297.18 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6043,16 +6294,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 53.34) (xy 365.76 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1703e40a-13ff-4107-bb15-05bd2f261b73")
-	)
-	(wire
-		(pts
 			(xy 317.5 142.24) (xy 317.5 144.78)
 		)
 		(stroke
@@ -6083,7 +6324,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 58.42) (xy 365.76 60.96)
+			(xy 297.18 73.66) (xy 297.18 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6120,16 +6361,6 @@
 			(type default)
 		)
 		(uuid "1d4a6d06-06aa-4489-b825-f9b5f8353148")
-	)
-	(wire
-		(pts
-			(xy 335.28 53.34) (xy 340.36 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e5e70a5-c4a6-45e2-b034-4131536b3d6e")
 	)
 	(wire
 		(pts
@@ -6193,6 +6424,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 165.1) (xy 363.22 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22655121-a554-42ba-a39c-8dfa8092f537")
+	)
+	(wire
+		(pts
 			(xy 71.12 60.96) (xy 78.74 60.96)
 		)
 		(stroke
@@ -6240,16 +6481,6 @@
 			(type default)
 		)
 		(uuid "26ba3fa5-7f3a-4475-88db-47417af84dc9")
-	)
-	(wire
-		(pts
-			(xy 276.86 149.86) (xy 302.26 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2708f46e-b8fd-4fbd-b792-28019e03936c")
 	)
 	(wire
 		(pts
@@ -6323,7 +6554,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 106.68) (xy 302.26 106.68)
+			(xy 294.64 106.68) (xy 297.18 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6353,7 +6584,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 53.34) (xy 276.86 53.34)
+			(xy 251.46 53.34) (xy 271.78 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6383,7 +6614,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 119.38) (xy 335.28 119.38)
+			(xy 236.22 119.38) (xy 271.78 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6393,7 +6624,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 58.42) (xy 340.36 53.34)
+			(xy 271.78 73.66) (xy 271.78 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6403,7 +6634,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 203.2) (xy 281.94 203.2)
+			(xy 294.64 203.2) (xy 297.18 203.2)
 		)
 		(stroke
 			(width 0)
@@ -6453,7 +6684,17 @@
 	)
 	(wire
 		(pts
-			(xy 254 68.58) (xy 335.28 68.58)
+			(xy 231.14 165.1) (xy 233.68 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fba5d2-11a9-43b8-92bd-f41346910a04")
+	)
+	(wire
+		(pts
+			(xy 254 68.58) (xy 363.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6533,6 +6774,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 101.6) (xy 302.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c705e8d-791f-4352-96d3-0c43c1a8cf2c")
+	)
+	(wire
+		(pts
 			(xy 142.24 233.68) (xy 142.24 236.22)
 		)
 		(stroke
@@ -6543,7 +6794,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 106.68) (xy 355.6 106.68)
+			(xy 284.48 124.46) (xy 287.02 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6580,16 +6831,6 @@
 			(type default)
 		)
 		(uuid "410cebed-7a26-48c9-a6a6-d155c9efa8af")
-	)
-	(wire
-		(pts
-			(xy 256.54 198.12) (xy 302.26 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4121ced3-ace3-4c98-a1dc-775711a398bf")
 	)
 	(wire
 		(pts
@@ -6643,6 +6884,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 53.34) (xy 365.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d3c8d6-0341-402f-9abb-bdb78fc7e0a3")
+	)
+	(wire
+		(pts
 			(xy 142.24 195.58) (xy 142.24 198.12)
 		)
 		(stroke
@@ -6653,7 +6904,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 154.94) (xy 302.26 157.48)
+			(xy 297.18 154.94) (xy 297.18 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6743,7 +6994,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 154.94) (xy 292.1 154.94)
+			(xy 284.48 154.94) (xy 287.02 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6770,6 +7021,16 @@
 			(type default)
 		)
 		(uuid "51d38945-505c-4c07-875e-64d6c833ec4c")
+	)
+	(wire
+		(pts
+			(xy 271.78 53.34) (xy 302.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52922c52-9829-407f-ac83-39e53df50234")
 	)
 	(wire
 		(pts
@@ -6853,7 +7114,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 154.94) (xy 340.36 149.86)
+			(xy 271.78 170.18) (xy 271.78 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6883,16 +7144,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 213.36) (xy 332.74 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "582637f6-7af2-49e4-a539-56a46d862922")
-	)
-	(wire
-		(pts
 			(xy 48.26 124.46) (xy 50.8 124.46)
 		)
 		(stroke
@@ -6900,16 +7151,6 @@
 			(type default)
 		)
 		(uuid "58633d14-4769-4254-ba38-d3ad0ce508ec")
-	)
-	(wire
-		(pts
-			(xy 332.74 165.1) (xy 332.74 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c3fb89-a2cf-4255-bb43-9a8cd8d56cd0")
 	)
 	(wire
 		(pts
@@ -6970,6 +7211,16 @@
 			(type default)
 		)
 		(uuid "5cceda2f-1bc5-4bbf-a6d6-ab3ac885307a")
+	)
+	(wire
+		(pts
+			(xy 233.68 157.48) (xy 233.68 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dfe927d-45bc-4ec2-b404-6375610971da")
 	)
 	(wire
 		(pts
@@ -7143,7 +7394,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 203.2) (xy 256.54 198.12)
+			(xy 271.78 203.2) (xy 271.78 198.12)
 		)
 		(stroke
 			(width 0)
@@ -7213,7 +7464,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 203.2) (xy 281.94 205.74)
+			(xy 297.18 203.2) (xy 297.18 205.74)
 		)
 		(stroke
 			(width 0)
@@ -7333,7 +7584,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 203.2) (xy 365.76 205.74)
+			(xy 297.18 218.44) (xy 297.18 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7373,7 +7624,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 58.42) (xy 292.1 58.42)
+			(xy 284.48 58.42) (xy 287.02 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7423,7 +7674,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 203.2) (xy 256.54 203.2)
+			(xy 276.86 203.2) (xy 271.78 203.2)
 		)
 		(stroke
 			(width 0)
@@ -7450,6 +7701,16 @@
 			(type default)
 		)
 		(uuid "801fcebb-6c74-48aa-b081-2d12ea1aecbe")
+	)
+	(wire
+		(pts
+			(xy 363.22 101.6) (xy 365.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80eb7d60-1ac9-4908-8709-7a154daed0e5")
 	)
 	(wire
 		(pts
@@ -7503,13 +7764,23 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 154.94) (xy 302.26 154.94)
+			(xy 294.64 154.94) (xy 297.18 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "85abf9f5-3fd5-495d-95e8-85ae604b7368")
+	)
+	(wire
+		(pts
+			(xy 213.36 162.56) (xy 218.44 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c72d78-f72a-478e-a9aa-1054e46d3cb0")
 	)
 	(wire
 		(pts
@@ -7573,7 +7844,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 154.94) (xy 276.86 149.86)
+			(xy 271.78 154.94) (xy 271.78 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7593,7 +7864,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 213.36) (xy 332.74 213.36)
+			(xy 251.46 213.36) (xy 271.78 213.36)
 		)
 		(stroke
 			(width 0)
@@ -7603,7 +7874,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 106.68) (xy 302.26 109.22)
+			(xy 297.18 106.68) (xy 297.18 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7663,7 +7934,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 149.86) (xy 276.86 149.86)
+			(xy 261.62 149.86) (xy 271.78 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7683,7 +7954,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 106.68) (xy 340.36 106.68)
+			(xy 276.86 124.46) (xy 271.78 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7713,7 +7984,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 106.68) (xy 340.36 101.6)
+			(xy 271.78 124.46) (xy 271.78 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7733,7 +8004,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 101.6) (xy 365.76 101.6)
+			(xy 271.78 119.38) (xy 363.22 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7773,7 +8044,17 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 106.68) (xy 365.76 106.68)
+			(xy 233.68 165.1) (xy 233.68 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f935b00-cd4f-4040-a726-acdad216b429")
+	)
+	(wire
+		(pts
+			(xy 294.64 124.46) (xy 297.18 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7933,13 +8214,23 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 58.42) (xy 302.26 58.42)
+			(xy 294.64 58.42) (xy 297.18 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac70d1f4-d715-485f-a952-10cbcc36b7b5")
+	)
+	(wire
+		(pts
+			(xy 271.78 149.86) (xy 302.26 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfa79cf-5ffc-4312-9d48-ae1a5260f258")
 	)
 	(wire
 		(pts
@@ -7960,16 +8251,6 @@
 			(type default)
 		)
 		(uuid "add90b12-628f-4ddd-b73f-b6a00d65c48e")
-	)
-	(wire
-		(pts
-			(xy 335.28 119.38) (xy 335.28 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae7619c7-5dad-4a77-98f9-00318affe125")
 	)
 	(wire
 		(pts
@@ -8003,7 +8284,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 106.68) (xy 276.86 101.6)
+			(xy 271.78 106.68) (xy 271.78 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8043,7 +8324,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 101.6) (xy 276.86 101.6)
+			(xy 259.08 101.6) (xy 271.78 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8123,16 +8404,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 53.34) (xy 302.26 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b88c30b4-f18e-4cdb-8950-449b4748314e")
-	)
-	(wire
-		(pts
 			(xy 154.94 121.92) (xy 154.94 124.46)
 		)
 		(stroke
@@ -8163,7 +8434,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 154.94) (xy 340.36 154.94)
+			(xy 276.86 170.18) (xy 271.78 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8193,7 +8464,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 68.58) (xy 335.28 53.34)
+			(xy 363.22 68.58) (xy 363.22 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8273,7 +8544,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 58.42) (xy 365.76 58.42)
+			(xy 294.64 73.66) (xy 297.18 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8293,7 +8564,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 58.42) (xy 355.6 58.42)
+			(xy 284.48 73.66) (xy 287.02 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8313,7 +8584,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 154.94) (xy 355.6 154.94)
+			(xy 284.48 170.18) (xy 287.02 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8333,13 +8604,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 149.86) (xy 340.36 149.86)
+			(xy 363.22 198.12) (xy 365.76 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c444b862-d404-4618-a8c3-80366aeb8c41")
+		(uuid "c4254313-d7ca-4be1-b00a-0fb6224b01e1")
 	)
 	(wire
 		(pts
@@ -8363,7 +8634,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 149.86) (xy 365.76 149.86)
+			(xy 271.78 165.1) (xy 363.22 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8373,7 +8644,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 58.42) (xy 276.86 53.34)
+			(xy 271.78 58.42) (xy 271.78 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8383,7 +8654,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 203.2) (xy 355.6 203.2)
+			(xy 284.48 218.44) (xy 287.02 218.44)
 		)
 		(stroke
 			(width 0)
@@ -8413,7 +8684,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 154.94) (xy 365.76 157.48)
+			(xy 297.18 170.18) (xy 297.18 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8423,7 +8694,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 58.42) (xy 302.26 60.96)
+			(xy 297.18 58.42) (xy 297.18 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8433,7 +8704,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 154.94) (xy 276.86 154.94)
+			(xy 276.86 154.94) (xy 271.78 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8503,16 +8774,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 101.6) (xy 302.26 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d341244c-3bb3-4dbc-8faa-28373e07b788")
-	)
-	(wire
-		(pts
 			(xy 45.72 139.7) (xy 50.8 139.7)
 		)
 		(stroke
@@ -8520,6 +8781,16 @@
 			(type default)
 		)
 		(uuid "d3a29dee-1d5e-4a3f-80bc-600225a67438")
+	)
+	(wire
+		(pts
+			(xy 363.22 149.86) (xy 365.76 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cb9e56-e45f-4962-b611-adea8d29e798")
 	)
 	(wire
 		(pts
@@ -8623,6 +8894,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 119.38) (xy 363.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84eff30-aa8a-4359-99b3-06c01e7cf471")
+	)
+	(wire
+		(pts
 			(xy 93.98 27.94) (xy 93.98 30.48)
 		)
 		(stroke
@@ -8683,7 +8964,17 @@
 	)
 	(wire
 		(pts
-			(xy 254 198.12) (xy 256.54 198.12)
+			(xy 271.78 198.12) (xy 302.26 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc8d084-2f2b-4e64-8db9-c66807879ba2")
+	)
+	(wire
+		(pts
+			(xy 254 198.12) (xy 271.78 198.12)
 		)
 		(stroke
 			(width 0)
@@ -8723,13 +9014,23 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 106.68) (xy 365.76 109.22)
+			(xy 297.18 124.46) (xy 297.18 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e08843fd-ac47-49bf-a1c5-7f0bf514e82a")
+	)
+	(wire
+		(pts
+			(xy 231.14 160.02) (xy 233.68 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e097cfa3-deee-46d2-8372-8e7f76a8c5f8")
 	)
 	(wire
 		(pts
@@ -8773,7 +9074,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 58.42) (xy 276.86 58.42)
+			(xy 276.86 58.42) (xy 271.78 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8813,23 +9114,13 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 203.2) (xy 365.76 203.2)
+			(xy 294.64 218.44) (xy 297.18 218.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e891293f-373d-4459-a0e7-c086af4a2b26")
-	)
-	(wire
-		(pts
-			(xy 335.28 101.6) (xy 340.36 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e963b26a-c905-46ae-9f53-00234a7dddee")
 	)
 	(wire
 		(pts
@@ -8863,7 +9154,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 203.2) (xy 271.78 203.2)
+			(xy 284.48 203.2) (xy 287.02 203.2)
 		)
 		(stroke
 			(width 0)
@@ -8880,6 +9171,16 @@
 			(type default)
 		)
 		(uuid "eb8b1792-0255-4bcd-9d80-a64f5db19aea")
+	)
+	(wire
+		(pts
+			(xy 363.22 213.36) (xy 363.22 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec720f7a-bf75-4845-a450-ddd0a5a4f765")
 	)
 	(wire
 		(pts
@@ -8910,16 +9211,6 @@
 			(type default)
 		)
 		(uuid "edc89376-a0b4-4ba5-b486-2ff1786fd207")
-	)
-	(wire
-		(pts
-			(xy 332.74 198.12) (xy 340.36 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee06c927-0724-41ec-a227-e37708341289")
 	)
 	(wire
 		(pts
@@ -9003,7 +9294,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 127) (xy 213.36 142.24)
+			(xy 213.36 127) (xy 213.36 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9013,7 +9304,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 203.2) (xy 340.36 198.12)
+			(xy 271.78 218.44) (xy 271.78 213.36)
 		)
 		(stroke
 			(width 0)
@@ -9023,7 +9314,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 198.12) (xy 365.76 198.12)
+			(xy 271.78 213.36) (xy 363.22 213.36)
 		)
 		(stroke
 			(width 0)
@@ -9053,7 +9344,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 106.68) (xy 276.86 106.68)
+			(xy 276.86 106.68) (xy 271.78 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9113,7 +9404,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 106.68) (xy 292.1 106.68)
+			(xy 284.48 106.68) (xy 287.02 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9163,7 +9454,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 58.42) (xy 340.36 58.42)
+			(xy 276.86 73.66) (xy 271.78 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9193,7 +9484,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 165.1) (xy 332.74 165.1)
+			(xy 259.08 165.1) (xy 271.78 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10340,7 +10631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:8195"
+		(property "Footprint" "CUSTOM:ScrewTerminal_Keystone_8195"
 			(at 335.28 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10698,6 +10989,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 233.68 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c85313c-5449-4a5d-9f0b-7f001a1e41f4")
+		(property "Reference" "#PWR059"
+			(at 233.68 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93d216dc-366d-486a-a53a-72e9a6481bac")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:G2RL-1-E")
 		(at 375.92 134.62 0)
 		(unit 1)
@@ -10790,7 +11159,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 281.94 205.74 0)
+		(at 297.18 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10801,7 +11170,7 @@
 		(fields_autoplaced yes)
 		(uuid "11316f64-8a44-4900-8f0f-67baed379f11")
 		(property "Reference" "#PWR073"
-			(at 281.94 212.09 0)
+			(at 297.18 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10812,7 +11181,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 281.94 210.82 0)
+			(at 297.18 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10822,7 +11191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 205.74 0)
+			(at 297.18 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10833,7 +11202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 205.74 0)
+			(at 297.18 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10844,7 +11213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 281.94 205.74 0)
+			(at 297.18 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10976,7 +11345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:8195"
+		(property "Footprint" "CUSTOM:ScrewTerminal_Keystone_8195"
 			(at 398.78 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11053,7 +11422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:8195"
+		(property "Footprint" "CUSTOM:ScrewTerminal_Keystone_8195"
 			(at 398.78 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11301,6 +11670,100 @@
 		)
 	)
 	(symbol
+		(lib_id "CUSTOM:SZNUD3124DMT1G")
+		(at 304.8 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c60d968-47d2-4651-85e3-e1241c95d73d")
+		(property "Reference" "U3"
+			(at 311.15 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SZNUD3124DMT1G"
+			(at 311.15 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
+			(at 304.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
+			(at 304.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Automotive Dual Inductive Load Driver"
+			(at 304.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "2ff09028-97ca-4bc0-ab87-3f7e702f15e7")
+		)
+		(pin "2"
+			(uuid "3d69ffeb-6c15-4a56-9dc5-b52b17ca450b")
+		)
+		(pin "1"
+			(uuid "29616d1b-3c01-47e5-ba74-8242ebba2104")
+		)
+		(pin "3"
+			(uuid "85970fa7-0498-4698-b587-05278b964a78")
+		)
+		(pin "6"
+			(uuid "af12a92f-e76e-40cf-b676-925297db26a6")
+		)
+		(pin "4"
+			(uuid "dbebe43e-2700-4871-8855-b5a14e571b62")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 307.34 157.48 0)
 		(unit 1)
@@ -11454,7 +11917,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 365.76 157.48 0)
+		(at 297.18 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11465,7 +11928,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bc95b21-847e-42bf-8b8f-53c64cc8b468")
 		(property "Reference" "#PWR078"
-			(at 365.76 163.83 0)
+			(at 297.18 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11476,7 +11939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.76 162.56 0)
+			(at 297.18 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11486,7 +11949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 157.48 0)
+			(at 297.18 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11497,7 +11960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 157.48 0)
+			(at 297.18 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11508,7 +11971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 157.48 0)
+			(at 297.18 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11609,8 +12072,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CUSTOM:LED")
-		(at 297.18 154.94 180)
+		(lib_id "power:+5V")
+		(at 233.68 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11618,9 +12081,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2e1e3656-ec1c-46ea-acf0-b6bd3a611b76")
-		(property "Reference" "D5"
-			(at 299.72 157.48 0)
+		(fields_autoplaced yes)
+		(uuid "2d759418-bd4b-4549-9226-1e04c85a69a7")
+		(property "Reference" "#PWR080"
+			(at 233.68 161.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11629,8 +12094,8 @@
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 294.64 157.48 0)
+		(property "Value" "+5V"
+			(at 233.68 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11639,8 +12104,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 297.18 154.94 0)
+		(property "Footprint" ""
+			(at 233.68 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11651,7 +12116,83 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 154.94 0)
+			(at 233.68 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 233.68 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a22fc8c-43a5-4e09-a358-8b8854e7905f")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CUSTOM:LED")
+		(at 292.1 154.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e1e3656-ec1c-46ea-acf0-b6bd3a611b76")
+		(property "Reference" "D5"
+			(at 294.64 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 289.56 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 292.1 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11662,7 +12203,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 295.91 154.94 0)
+			(at 290.83 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11673,7 +12214,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 295.91 154.94 0)
+			(at 290.83 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11700,7 +12241,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 302.26 60.96 0)
+		(at 297.18 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11711,7 +12252,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e3e654f-8a10-4fee-aaab-731e874e6c63")
 		(property "Reference" "#PWR072"
-			(at 302.26 67.31 0)
+			(at 297.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11722,7 +12263,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 302.26 66.04 0)
+			(at 297.18 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11732,7 +12273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 60.96 0)
+			(at 297.18 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11743,7 +12284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 60.96 0)
+			(at 297.18 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11754,7 +12295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 302.26 60.96 0)
+			(at 297.18 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11771,214 +12312,6 @@
 			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CUSTOM:SZNUD3124LT1G")
-		(at 304.8 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f25d17f-cec6-43a6-8b87-41855233d6f5")
-		(property "Reference" "U11"
-			(at 302.26 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SZNUD3124LT1G"
-			(at 302.26 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 304.8 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
-			(at 304.8 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Automotive Inductive Load Driver"
-			(at 304.8 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "fc0150e4-a64d-4f7a-904f-9348c3e39616")
-		)
-		(pin "2"
-			(uuid "05dd142a-eae9-46e3-aa51-36ae2cd700e7")
-		)
-		(pin "1"
-			(uuid "b9631330-2e1c-4f6a-b034-44ee5b17fade")
-		)
-		(instances
-			(project "serial-relay-switch"
-				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HCT595")
-		(at 226.06 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f4c7248-b248-4749-8929-0997f54b7b1b")
-		(property "Reference" "U13"
-			(at 228.2033 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HCT595"
-			(at 228.2033 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 226.06 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf"
-			(at 226.06 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-			(at 226.06 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "216d6b0b-42c0-494b-ad55-a62472b4b3d0")
-		)
-		(pin "9"
-			(uuid "f073c659-caf2-4b71-a3c9-9f1d98c34ed7")
-		)
-		(pin "13"
-			(uuid "1782a310-1b54-4feb-bcf4-e5788cad2446")
-		)
-		(pin "1"
-			(uuid "263ebe56-9ba3-43cc-b8cc-af9651a86621")
-		)
-		(pin "2"
-			(uuid "3cd36f36-f00b-4de6-8495-b6ef2cbf578e")
-		)
-		(pin "4"
-			(uuid "bdd9fae7-7ac3-4094-8065-1ed44e533baa")
-		)
-		(pin "3"
-			(uuid "e8172f82-74e2-4eed-a1c3-37673f95f551")
-		)
-		(pin "12"
-			(uuid "752a5d61-8c79-4d71-b98b-0c1c19e78d87")
-		)
-		(pin "11"
-			(uuid "da301a4f-26ec-446f-96c0-50954f57dc57")
-		)
-		(pin "14"
-			(uuid "7bee5cf4-0439-4eb4-9e0d-3c2194aa1d1d")
-		)
-		(pin "10"
-			(uuid "b805ddb7-5afd-4472-92cb-e9d1cd3ca1c0")
-		)
-		(pin "8"
-			(uuid "a334a87e-490a-4a6a-bacc-c97fa5ed02e7")
-		)
-		(pin "16"
-			(uuid "3c40867f-3ae7-424c-9199-8b43c2d16fb5")
-		)
-		(pin "6"
-			(uuid "861c7c79-1ee4-4557-9f11-1686699e1d77")
-		)
-		(pin "7"
-			(uuid "6f642e89-4f7a-4f6d-a551-bcfccb7376aa")
-		)
-		(pin "15"
-			(uuid "2ee298e0-f66f-412d-8efa-020cd4184dbf")
-		)
-		(instances
-			(project "serial-relay-switch"
-				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
-					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -12174,7 +12507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CUSTOM:MountingHole_3.2mm_M3"
+		(property "Footprint" "CUSTOM:MountingHole_3.2mm_M3_Keepout"
 			(at 173.99 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12451,6 +12784,100 @@
 		)
 	)
 	(symbol
+		(lib_id "CUSTOM:SZNUD3124DMT1G")
+		(at 368.3 101.6 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3685375e-dc96-47f2-b335-be62080e481d")
+		(property "Reference" "U6"
+			(at 374.65 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SZNUD3124DMT1G"
+			(at 374.65 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
+			(at 368.3 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
+			(at 368.3 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Automotive Dual Inductive Load Driver"
+			(at 368.3 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "945fd2cc-f571-4eaa-8559-083b5c0cc9e8")
+		)
+		(pin "2"
+			(uuid "3d69ffeb-6c15-4a56-9dc5-b52b17ca450c")
+		)
+		(pin "1"
+			(uuid "29616d1b-3c01-47e5-ba74-8242ebba2105")
+		)
+		(pin "3"
+			(uuid "72243fe9-5869-426c-ba62-2b6af804af03")
+		)
+		(pin "6"
+			(uuid "af12a92f-e76e-40cf-b676-925297db26a7")
+		)
+		(pin "4"
+			(uuid "39edbcd5-d765-488a-8825-fa574c01eee5")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CUSTOM:R")
 		(at 83.82 226.06 90)
 		(unit 1)
@@ -12525,6 +12952,100 @@
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "R28")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CUSTOM:SZNUD3124DMT1G")
+		(at 368.3 53.34 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39605d54-33c7-4388-a220-be0dd0c67108")
+		(property "Reference" "U3"
+			(at 374.65 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SZNUD3124DMT1G"
+			(at 374.65 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
+			(at 368.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
+			(at 368.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Automotive Dual Inductive Load Driver"
+			(at 368.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "2ff09028-97ca-4bc0-ab87-3f7e702f15e7")
+		)
+		(pin "2"
+			(uuid "3d69ffeb-6c15-4a56-9dc5-b52b17ca450b")
+		)
+		(pin "1"
+			(uuid "29616d1b-3c01-47e5-ba74-8242ebba2104")
+		)
+		(pin "3"
+			(uuid "85970fa7-0498-4698-b587-05278b964a78")
+		)
+		(pin "6"
+			(uuid "af12a92f-e76e-40cf-b676-925297db26a6")
+		)
+		(pin "4"
+			(uuid "dbebe43e-2700-4871-8855-b5a14e571b62")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "U3")
+					(unit 2)
 				)
 			)
 		)
@@ -12951,7 +13472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:8195"
+		(property "Footprint" "CUSTOM:ScrewTerminal_Keystone_8195"
 			(at 17.78 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -13153,90 +13674,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CUSTOM:SZNUD3124LT1G")
-		(at 368.3 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "49e67cf7-cabe-4dd2-9f61-09b8dede41eb")
-		(property "Reference" "U8"
-			(at 365.76 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SZNUD3124LT1G"
-			(at 365.76 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 368.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
-			(at 368.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Automotive Inductive Load Driver"
-			(at 368.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "809997fd-d941-46a8-929c-204b3a15d4a8")
-		)
-		(pin "2"
-			(uuid "ad1ac56a-6b94-46bf-9c40-436ae13c544f")
-		)
-		(pin "1"
-			(uuid "b4a46989-4700-46a1-bb09-2d2bc98e6ec8")
-		)
-		(instances
-			(project "serial-relay-switch"
-				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Relay:G2RL-1-E")
 		(at 312.42 86.36 0)
 		(unit 1)
@@ -13322,84 +13759,6 @@
 			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 213.36 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5129c1f2-3f81-4c4a-bda6-1ba5b90ffcee")
-		(property "Reference" "#PWR059"
-			(at 213.36 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.36 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e3decb2-4be7-4b04-8b0a-dfc235ed8f96")
-		)
-		(instances
-			(project "serial-relay-switch"
-				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -13556,90 +13915,6 @@
 			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CUSTOM:SZNUD3124LT1G")
-		(at 304.8 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "52e5b238-689e-4d64-8f9f-cf0d9a3419b2")
-		(property "Reference" "U7"
-			(at 302.26 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SZNUD3124LT1G"
-			(at 302.26 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 304.8 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
-			(at 304.8 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Automotive Inductive Load Driver"
-			(at 304.8 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "725d4c9e-2b14-4768-a05b-dab2b8407b52")
-		)
-		(pin "2"
-			(uuid "2ae2d048-32d3-4cad-86b7-aaf07f663c37")
-		)
-		(pin "1"
-			(uuid "10d67cab-bc03-480b-9380-764b797fd2b6")
-		)
-		(instances
-			(project "serial-relay-switch"
-				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -13885,7 +14160,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:LED")
-		(at 276.86 203.2 180)
+		(at 292.1 203.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13895,7 +14170,7 @@
 		(dnp no)
 		(uuid "58d4afa7-1fdc-4d25-b417-eff7b42a1d86")
 		(property "Reference" "D3"
-			(at 279.4 205.74 0)
+			(at 294.64 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13905,7 +14180,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 274.32 205.74 0)
+			(at 289.56 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13915,7 +14190,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 276.86 203.2 0)
+			(at 292.1 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13926,7 +14201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 203.2 0)
+			(at 292.1 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13937,7 +14212,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 275.59 203.2 0)
+			(at 290.83 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13948,7 +14223,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 275.59 203.2 0)
+			(at 290.83 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14231,7 +14506,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d5acb7a-e85b-45dd-9041-1c7cbebb81ff")
 		(property "Reference" "#PWR044"
 			(at 307.34 128.27 0)
@@ -14245,7 +14519,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 307.34 119.38 0)
+			(at 309.88 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14372,90 +14646,6 @@
 			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CUSTOM:SZNUD3124LT1G")
-		(at 304.8 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6001b476-4a3e-4e00-a4d5-bab137080050")
-		(property "Reference" "U6"
-			(at 302.26 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SZNUD3124LT1G"
-			(at 302.26 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 304.8 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
-			(at 304.8 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Automotive Inductive Load Driver"
-			(at 304.8 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "c67219f0-43df-4404-845d-c10af3f2f887")
-		)
-		(pin "2"
-			(uuid "d5dbdf6f-75e5-480e-afee-340ea40e87a8")
-		)
-		(pin "1"
-			(uuid "3cd9ceb9-9b5e-4ca2-b57d-0dfe97da3ae4")
-		)
-		(instances
-			(project "serial-relay-switch"
-				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -14752,7 +14942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:8195"
+		(property "Footprint" "CUSTOM:ScrewTerminal_Keystone_8195"
 			(at 398.78 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -15477,7 +15667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:2501551-4"
+		(property "Footprint" "CUSTOM:EthernetJack_TE_2501551-4"
 			(at 129.54 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -15560,7 +15750,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:LED")
-		(at 297.18 58.42 180)
+		(at 292.1 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15570,16 +15760,6 @@
 		(dnp no)
 		(uuid "702b7a93-5d10-4a2e-8eba-6598d9363ad1")
 		(property "Reference" "D2"
-			(at 299.72 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
 			(at 294.64 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15589,8 +15769,18 @@
 				)
 			)
 		)
+		(property "Value" "LED"
+			(at 289.56 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 297.18 58.42 0)
+			(at 292.1 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15601,7 +15791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 58.42 0)
+			(at 292.1 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15612,7 +15802,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 295.91 58.42 0)
+			(at 290.83 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15623,7 +15813,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 295.91 58.42 0)
+			(at 290.83 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15643,90 +15833,6 @@
 			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CUSTOM:SZNUD3124LT1G")
-		(at 304.8 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70ec077c-3ff8-495b-a24d-144a60536c2f")
-		(property "Reference" "U3"
-			(at 302.26 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SZNUD3124LT1G"
-			(at 302.26 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 304.8 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
-			(at 304.8 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Automotive Inductive Load Driver"
-			(at 304.8 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "4500c257-88e1-45a8-9a81-0d50a0dd5b1c")
-		)
-		(pin "2"
-			(uuid "5aaa0bee-dece-437d-86cb-ad136e03100a")
-		)
-		(pin "1"
-			(uuid "ec4236b2-8df2-4872-a450-cc79cafd5b4a")
-		)
-		(instances
-			(project "serial-relay-switch"
-				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15824,8 +15930,102 @@
 		)
 	)
 	(symbol
+		(lib_id "CUSTOM:SZNUD3124DMT1G")
+		(at 368.3 198.12 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78ced1f0-160e-47e3-b38e-dbb51ec4a55c")
+		(property "Reference" "U8"
+			(at 374.65 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SZNUD3124DMT1G"
+			(at 374.65 199.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
+			(at 368.3 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
+			(at 368.3 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Automotive Dual Inductive Load Driver"
+			(at 368.3 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "7c15cdcc-9730-48db-b179-cf3da9da93c7")
+		)
+		(pin "2"
+			(uuid "3d69ffeb-6c15-4a56-9dc5-b52b17ca450c")
+		)
+		(pin "1"
+			(uuid "29616d1b-3c01-47e5-ba74-8242ebba2105")
+		)
+		(pin "3"
+			(uuid "4dc290a9-716c-4701-be2f-605e2b21a904")
+		)
+		(pin "6"
+			(uuid "af12a92f-e76e-40cf-b676-925297db26a7")
+		)
+		(pin "4"
+			(uuid "95e4e6d6-c21e-44c1-9d19-c9ba12114f75")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "U8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 365.76 205.74 0)
+		(at 297.18 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15836,7 +16036,7 @@
 		(fields_autoplaced yes)
 		(uuid "799d14af-97d8-44be-972c-d0ca3931f487")
 		(property "Reference" "#PWR079"
-			(at 365.76 212.09 0)
+			(at 297.18 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15847,7 +16047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.76 210.82 0)
+			(at 297.18 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15857,7 +16057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 205.74 0)
+			(at 297.18 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15868,7 +16068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 205.74 0)
+			(at 297.18 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15879,7 +16079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 205.74 0)
+			(at 297.18 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15975,6 +16175,100 @@
 			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CUSTOM:SZNUD3124DMT1G")
+		(at 304.8 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c74b920-c733-49fb-8969-6bde84ceb9dd")
+		(property "Reference" "U6"
+			(at 311.15 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SZNUD3124DMT1G"
+			(at 311.15 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
+			(at 304.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
+			(at 304.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Automotive Dual Inductive Load Driver"
+			(at 304.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "2ff09028-97ca-4bc0-ab87-3f7e702f15e7")
+		)
+		(pin "2"
+			(uuid "7d63d0a5-71f1-4ac7-a961-439a302eb696")
+		)
+		(pin "1"
+			(uuid "d6cce7f0-4a5f-4757-9083-02dade70f863")
+		)
+		(pin "3"
+			(uuid "85970fa7-0498-4698-b587-05278b964a78")
+		)
+		(pin "6"
+			(uuid "311e84b3-9876-4943-8fa3-2cc154443232")
+		)
+		(pin "4"
+			(uuid "dbebe43e-2700-4871-8855-b5a14e571b62")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -16370,7 +16664,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:R")
-		(at 284.48 58.42 90)
+		(at 279.4 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16380,7 +16674,7 @@
 		(dnp no)
 		(uuid "8751a768-eb05-437a-9c8d-861d57ab015b")
 		(property "Reference" "R1"
-			(at 289.56 55.88 90)
+			(at 284.48 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16390,7 +16684,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 281.94 55.88 90)
+			(at 276.86 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16400,7 +16694,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 284.48 60.198 90)
+			(at 279.4 60.198 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16411,7 +16705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 58.42 0)
+			(at 279.4 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16422,7 +16716,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 285.75 58.42 0)
+			(at 280.67 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16449,7 +16743,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:LED")
-		(at 297.18 106.68 180)
+		(at 292.1 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16459,16 +16753,6 @@
 		(dnp no)
 		(uuid "88fb2e4f-6996-4e5b-a700-b0dc0b68bd2a")
 		(property "Reference" "D4"
-			(at 299.72 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
 			(at 294.64 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16478,8 +16762,18 @@
 				)
 			)
 		)
+		(property "Value" "LED"
+			(at 289.56 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 297.18 106.68 0)
+			(at 292.1 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16490,7 +16784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 106.68 0)
+			(at 292.1 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16501,7 +16795,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 295.91 106.68 0)
+			(at 290.83 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16512,7 +16806,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 295.91 106.68 0)
+			(at 290.83 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16617,7 +16911,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:R")
-		(at 347.98 203.2 90)
+		(at 279.4 218.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16627,7 +16921,7 @@
 		(dnp no)
 		(uuid "8a3d412d-8444-433d-9726-29077c42330b")
 		(property "Reference" "R8"
-			(at 353.06 200.66 90)
+			(at 284.48 215.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16637,7 +16931,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 345.44 200.66 90)
+			(at 276.86 215.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16647,7 +16941,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 347.98 204.978 90)
+			(at 279.4 220.218 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16658,7 +16952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 203.2 0)
+			(at 279.4 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16669,7 +16963,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 349.25 203.2 0)
+			(at 280.67 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16726,7 +17020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:8195"
+		(property "Footprint" "CUSTOM:ScrewTerminal_Keystone_8195"
 			(at 335.28 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -16946,7 +17240,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 302.26 109.22 0)
+		(at 297.18 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16957,7 +17251,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d549147-677e-4eb4-bb05-0c48037da94e")
 		(property "Reference" "#PWR074"
-			(at 302.26 115.57 0)
+			(at 297.18 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16968,7 +17262,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 302.26 114.3 0)
+			(at 297.18 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16978,7 +17272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 109.22 0)
+			(at 297.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16989,7 +17283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 109.22 0)
+			(at 297.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17000,7 +17294,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 302.26 109.22 0)
+			(at 297.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17024,7 +17318,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:R")
-		(at 347.98 58.42 90)
+		(at 279.4 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17034,7 +17328,7 @@
 		(dnp no)
 		(uuid "8ec8f164-c10c-4750-94d3-a71ebfd35729")
 		(property "Reference" "R5"
-			(at 353.06 55.88 90)
+			(at 284.48 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17044,7 +17338,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 345.44 55.88 90)
+			(at 276.86 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17054,7 +17348,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 347.98 60.198 90)
+			(at 279.4 75.438 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17065,7 +17359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 58.42 0)
+			(at 279.4 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17076,7 +17370,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 349.25 58.42 0)
+			(at 280.67 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17135,7 +17429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CUSTOM:MountingHole_3.2mm_M3"
+		(property "Footprint" "CUSTOM:MountingHole_3.2mm_M3_Keepout"
 			(at 173.99 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -17179,7 +17473,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:R")
-		(at 284.48 154.94 90)
+		(at 279.4 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17189,7 +17483,7 @@
 		(dnp no)
 		(uuid "919b0eaf-faa2-40d5-99f9-3995564a5df0")
 		(property "Reference" "R4"
-			(at 289.56 152.4 90)
+			(at 284.48 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17199,7 +17493,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 281.94 152.4 90)
+			(at 276.86 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17209,7 +17503,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 284.48 156.718 90)
+			(at 279.4 156.718 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17220,7 +17514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 154.94 0)
+			(at 279.4 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17231,7 +17525,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 285.75 154.94 0)
+			(at 280.67 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17895,7 +18189,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 365.76 109.22 0)
+		(at 297.18 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17906,7 +18200,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ac2fd98-ffe5-4722-9715-6eef2e28f56d")
 		(property "Reference" "#PWR077"
-			(at 365.76 115.57 0)
+			(at 297.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17917,7 +18211,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.76 114.3 0)
+			(at 297.18 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17927,7 +18221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 109.22 0)
+			(at 297.18 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17938,7 +18232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 109.22 0)
+			(at 297.18 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17949,7 +18243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 109.22 0)
+			(at 297.18 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18081,7 +18375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:8195"
+		(property "Footprint" "CUSTOM:ScrewTerminal_Keystone_8195"
 			(at 17.78 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -18531,40 +18825,41 @@
 		)
 	)
 	(symbol
-		(lib_id "CUSTOM:SZNUD3124LT1G")
-		(at 368.3 198.12 0)
-		(unit 1)
+		(lib_id "CUSTOM:SZNUD3124DMT1G")
+		(at 368.3 149.86 0)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ab6f6f0e-ba4c-4c06-ae20-9a57c3f383e5")
-		(property "Reference" "U12"
-			(at 365.76 195.58 0)
+		(fields_autoplaced yes)
+		(uuid "abd22e78-4e67-4f4c-ad49-07011cd4c571")
+		(property "Reference" "U7"
+			(at 374.65 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SZNUD3124LT1G"
-			(at 365.76 193.04 0)
+		(property "Value" "SZNUD3124DMT1G"
+			(at 374.65 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 368.3 198.12 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
+			(at 368.3 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18575,7 +18870,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
-			(at 368.3 198.12 0)
+			(at 368.3 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18585,8 +18880,8 @@
 				)
 			)
 		)
-		(property "Description" "Automotive Inductive Load Driver"
-			(at 368.3 198.12 0)
+		(property "Description" "Automotive Dual Inductive Load Driver"
+			(at 368.3 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18596,20 +18891,29 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "779ccc9d-f733-4bdd-aa99-f7b8bfe125a8")
+		(pin "5"
+			(uuid "06d5b930-eafb-474b-be21-071273bb310c")
 		)
 		(pin "2"
-			(uuid "c9f479e3-bcb5-47ab-acbc-91d3244142f8")
+			(uuid "3d69ffeb-6c15-4a56-9dc5-b52b17ca450c")
 		)
 		(pin "1"
-			(uuid "6456efaa-55d8-4354-b0fc-f29c32c19a9e")
+			(uuid "29616d1b-3c01-47e5-ba74-8242ebba2105")
+		)
+		(pin "3"
+			(uuid "59c03591-b501-4207-b18c-44890e3391d5")
+		)
+		(pin "6"
+			(uuid "af12a92f-e76e-40cf-b676-925297db26a7")
+		)
+		(pin "4"
+			(uuid "53d2268c-767c-4dd5-8a64-f55810d7befa")
 		)
 		(instances
 			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
-					(reference "U12")
-					(unit 1)
+					(reference "U7")
+					(unit 2)
 				)
 			)
 		)
@@ -18962,7 +19266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:8195"
+		(property "Footprint" "CUSTOM:ScrewTerminal_Keystone_8195"
 			(at 398.78 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -19101,7 +19405,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 365.76 60.96 0)
+		(at 297.18 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19112,7 +19416,7 @@
 		(fields_autoplaced yes)
 		(uuid "b95de651-f753-489a-8fed-f146f9e5b022")
 		(property "Reference" "#PWR076"
-			(at 365.76 67.31 0)
+			(at 297.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19123,7 +19427,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.76 66.04 0)
+			(at 297.18 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19133,7 +19437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 60.96 0)
+			(at 297.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19144,7 +19448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 60.96 0)
+			(at 297.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19155,7 +19459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 60.96 0)
+			(at 297.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19172,90 +19476,6 @@
 			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CUSTOM:SZNUD3124LT1G")
-		(at 368.3 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b969c5cc-4fe6-4547-ab90-646294649591")
-		(property "Reference" "U10"
-			(at 365.76 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SZNUD3124LT1G"
-			(at 365.76 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 368.3 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
-			(at 368.3 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Automotive Inductive Load Driver"
-			(at 368.3 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "e86cec96-b838-43ad-a18e-8ae2fd1f62cf")
-		)
-		(pin "2"
-			(uuid "4ca8ffff-c768-46af-8dbc-0003991cb9e5")
-		)
-		(pin "1"
-			(uuid "cf0174e2-5ee2-4116-87ab-9acc19374dbc")
-		)
-		(instances
-			(project "serial-relay-switch"
-				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -19293,7 +19513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:8195"
+		(property "Footprint" "CUSTOM:ScrewTerminal_Keystone_8195"
 			(at 335.28 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -19340,7 +19560,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:R")
-		(at 347.98 154.94 90)
+		(at 279.4 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19350,7 +19570,7 @@
 		(dnp no)
 		(uuid "bc78306f-2489-4e1c-bf39-b6dbe9b8e9c4")
 		(property "Reference" "R7"
-			(at 353.06 152.4 90)
+			(at 284.48 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19360,7 +19580,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 345.44 152.4 90)
+			(at 276.86 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19370,7 +19590,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 347.98 156.718 90)
+			(at 279.4 171.958 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19381,7 +19601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 154.94 0)
+			(at 279.4 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19392,7 +19612,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 349.25 154.94 0)
+			(at 280.67 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19497,7 +19717,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:R")
-		(at 284.48 106.68 90)
+		(at 279.4 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19507,7 +19727,7 @@
 		(dnp no)
 		(uuid "c2d9d1ef-4724-475a-b65e-e5bccb918a62")
 		(property "Reference" "R3"
-			(at 289.56 104.14 90)
+			(at 284.48 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19517,7 +19737,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 281.94 104.14 90)
+			(at 276.86 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19527,7 +19747,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 284.48 108.458 90)
+			(at 279.4 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19538,7 +19758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 106.68 0)
+			(at 279.4 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19549,7 +19769,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 285.75 106.68 0)
+			(at 280.67 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19658,7 +19878,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:LED")
-		(at 360.68 154.94 180)
+		(at 292.1 170.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19668,7 +19888,7 @@
 		(dnp no)
 		(uuid "c5fdd1c5-9a09-4593-abbe-24489e42795e")
 		(property "Reference" "D8"
-			(at 363.22 157.48 0)
+			(at 294.64 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19678,7 +19898,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 358.14 157.48 0)
+			(at 289.56 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19688,7 +19908,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 360.68 154.94 0)
+			(at 292.1 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19699,7 +19919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 154.94 0)
+			(at 292.1 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19710,7 +19930,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 359.41 154.94 0)
+			(at 290.83 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19721,7 +19941,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 359.41 154.94 0)
+			(at 290.83 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19835,7 +20055,7 @@
 		(dnp no)
 		(uuid "cd2e81c9-5764-4fb5-be26-152eab42b59c")
 		(property "Reference" "K3"
-			(at 300.99 135.89 0)
+			(at 300.99 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19846,7 +20066,7 @@
 			)
 		)
 		(property "Value" "G2RL-1-E"
-			(at 300.99 133.35 0)
+			(at 300.99 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20270,7 +20490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:8195"
+		(property "Footprint" "CUSTOM:ScrewTerminal_Keystone_8195"
 			(at 335.28 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -20317,7 +20537,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:R")
-		(at 347.98 106.68 90)
+		(at 279.4 124.46 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20327,7 +20547,7 @@
 		(dnp no)
 		(uuid "d1a43e8e-0e14-4d64-b00d-db4d885548fe")
 		(property "Reference" "R6"
-			(at 353.06 104.14 90)
+			(at 284.48 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20337,7 +20557,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 345.44 104.14 90)
+			(at 276.86 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20347,7 +20567,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 347.98 108.458 90)
+			(at 279.4 126.238 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20358,7 +20578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 106.68 0)
+			(at 279.4 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20369,7 +20589,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 349.25 106.68 0)
+			(at 280.67 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20474,7 +20694,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM:LED")
-		(at 360.68 58.42 180)
+		(at 292.1 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20484,7 +20704,7 @@
 		(dnp no)
 		(uuid "d58ad81b-d3d5-44f9-8283-140f25b189d8")
 		(property "Reference" "D6"
-			(at 363.22 60.96 0)
+			(at 294.64 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20494,7 +20714,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 358.14 60.96 0)
+			(at 289.56 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20504,7 +20724,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 360.68 58.42 0)
+			(at 292.1 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20515,7 +20735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 58.42 0)
+			(at 292.1 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20526,7 +20746,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 359.41 58.42 0)
+			(at 290.83 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20537,7 +20757,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 359.41 58.42 0)
+			(at 290.83 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20718,8 +20938,92 @@
 		)
 	)
 	(symbol
+		(lib_id "CUSTOM:STM1818T")
+		(at 223.52 162.56 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da0c3af7-3b38-433b-8a77-b1529bf41a87")
+		(property "Reference" "U13"
+			(at 224.79 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM1810T"
+			(at 224.79 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 223.52 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/stm1810-1851202.pdf"
+			(at 223.52 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power on Reset + Manual Reset Monitor, 3.06V nominal reset"
+			(at 223.52 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bb837cc-a73c-461a-8791-59de48ac0e9d")
+		)
+		(pin "2"
+			(uuid "5a4385bb-cb08-4829-8bc8-d78dc4366ff7")
+		)
+		(pin "3"
+			(uuid "9c8445dc-35e2-47ad-814c-e7b867d8ae81")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CUSTOM:LED")
-		(at 360.68 203.2 180)
+		(at 292.1 218.44 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20729,7 +21033,7 @@
 		(dnp no)
 		(uuid "da1154e4-15ed-4cf0-82c6-fa1ed910bfc4")
 		(property "Reference" "D9"
-			(at 363.22 205.74 0)
+			(at 294.64 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20739,7 +21043,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 358.14 205.74 0)
+			(at 289.56 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20749,7 +21053,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 360.68 203.2 0)
+			(at 292.1 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20760,7 +21064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 203.2 0)
+			(at 292.1 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20771,7 +21075,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 359.41 203.2 0)
+			(at 290.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20782,7 +21086,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 359.41 203.2 0)
+			(at 290.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20979,8 +21283,132 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC594")
+		(at 226.06 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df59b855-0e99-42dc-aef6-9fcb5c675194")
+		(property "Reference" "U5"
+			(at 228.2033 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC594"
+			(at 228.2033 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 226.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc594.pdf"
+			(at 226.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8-Bit Shift Registers With Output Registers"
+			(at 226.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "27ee277b-09ff-40d0-9a9b-f135cc700ee3")
+		)
+		(pin "13"
+			(uuid "5d4cf35e-da7f-462d-a2ee-c0bb99497947")
+		)
+		(pin "9"
+			(uuid "c07a5e5f-e76c-4920-b04e-7ef01d8bf9e8")
+		)
+		(pin "5"
+			(uuid "5218cb46-f84b-40a6-85ad-29097a643cca")
+		)
+		(pin "6"
+			(uuid "ee320446-d10d-4e1e-9315-52676e0dfd2e")
+		)
+		(pin "7"
+			(uuid "0d6a3491-9344-4a38-a4a0-59ac918e92d6")
+		)
+		(pin "1"
+			(uuid "33f09291-4bf6-4bff-833c-9b8d8c0d0270")
+		)
+		(pin "4"
+			(uuid "cf725e0c-ee46-4d98-bacd-b63ed344c683")
+		)
+		(pin "3"
+			(uuid "4b13449f-effd-4305-9977-640b0bdab452")
+		)
+		(pin "2"
+			(uuid "14b92ea1-05b5-4c13-afe3-108e0bded34b")
+		)
+		(pin "15"
+			(uuid "87c0c1b5-3864-4cf4-aeb6-267123c179c5")
+		)
+		(pin "11"
+			(uuid "5232150e-3a63-4949-abe3-214a0316d59a")
+		)
+		(pin "12"
+			(uuid "1bc7de73-8ca1-44a2-aec3-e3f96136280c")
+		)
+		(pin "8"
+			(uuid "bb8182a4-893f-4c76-925a-f21089e85b7c")
+		)
+		(pin "14"
+			(uuid "e14c906e-1a6c-41fa-bb88-e95a5d1cb17a")
+		)
+		(pin "10"
+			(uuid "d0763acd-903b-4300-aa85-d032ce4ea520")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CUSTOM:LED")
-		(at 360.68 106.68 180)
+		(at 292.1 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20990,7 +21418,7 @@
 		(dnp no)
 		(uuid "e12d5806-be9f-4ade-b692-988f0b444628")
 		(property "Reference" "D7"
-			(at 363.22 109.22 0)
+			(at 294.64 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21000,7 +21428,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 358.14 109.22 0)
+			(at 289.56 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21010,7 +21438,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 360.68 106.68 0)
+			(at 292.1 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21021,7 +21449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 106.68 0)
+			(at 292.1 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21032,7 +21460,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 359.41 106.68 0)
+			(at 290.83 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21043,7 +21471,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 359.41 106.68 0)
+			(at 290.83 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21148,7 +21576,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 302.26 157.48 0)
+		(at 297.18 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21159,7 +21587,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3897245-6ccf-4ee0-9c6c-7c6e5b1afc2f")
 		(property "Reference" "#PWR075"
-			(at 302.26 163.83 0)
+			(at 297.18 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21170,7 +21598,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 302.26 162.56 0)
+			(at 297.18 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21180,7 +21608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 157.48 0)
+			(at 297.18 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21191,7 +21619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 157.48 0)
+			(at 297.18 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21202,7 +21630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 302.26 157.48 0)
+			(at 297.18 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21545,8 +21973,102 @@
 		)
 	)
 	(symbol
+		(lib_id "CUSTOM:SZNUD3124DMT1G")
+		(at 304.8 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb1fa112-64f0-49b7-a54a-c0e5bd4cff9d")
+		(property "Reference" "U7"
+			(at 311.15 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SZNUD3124DMT1G"
+			(at 311.15 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
+			(at 304.8 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
+			(at 304.8 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Automotive Dual Inductive Load Driver"
+			(at 304.8 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "2ff09028-97ca-4bc0-ab87-3f7e702f15e7")
+		)
+		(pin "2"
+			(uuid "979b1884-90c4-4e7e-bffe-5f327adb0556")
+		)
+		(pin "1"
+			(uuid "4a5cbdfa-4ba3-4cbf-96f8-1610ba83d48f")
+		)
+		(pin "3"
+			(uuid "85970fa7-0498-4698-b587-05278b964a78")
+		)
+		(pin "6"
+			(uuid "5ef15504-890b-476b-a7ca-f8d9f086109a")
+		)
+		(pin "4"
+			(uuid "dbebe43e-2700-4871-8855-b5a14e571b62")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CUSTOM:R")
-		(at 264.16 203.2 90)
+		(at 279.4 203.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21556,7 +22078,7 @@
 		(dnp no)
 		(uuid "ef065b0b-c30c-4e61-9422-248787490fd8")
 		(property "Reference" "R2"
-			(at 269.24 200.66 90)
+			(at 284.48 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21566,7 +22088,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 261.62 200.66 90)
+			(at 276.86 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21576,7 +22098,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 264.16 204.978 90)
+			(at 279.4 204.978 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21587,7 +22109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 203.2 0)
+			(at 279.4 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21598,7 +22120,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 265.43 203.2 0)
+			(at 280.67 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21618,90 +22140,6 @@
 			(project "serial-relay-switch"
 				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CUSTOM:SZNUD3124LT1G")
-		(at 368.3 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f04f1e03-4411-4a8f-9cf7-293835ea2932")
-		(property "Reference" "U9"
-			(at 365.76 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SZNUD3124LT1G"
-			(at 365.76 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 368.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
-			(at 368.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Automotive Inductive Load Driver"
-			(at 368.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "25b08abb-10ca-49b0-bc2c-c11d94a27027")
-		)
-		(pin "2"
-			(uuid "33e51def-4f11-40d5-a201-c99bf0faf140")
-		)
-		(pin "1"
-			(uuid "1d36d42e-3cd8-4175-8a97-c002a86a7cf9")
-		)
-		(instances
-			(project "serial-relay-switch"
-				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -22123,6 +22561,100 @@
 		)
 	)
 	(symbol
+		(lib_id "CUSTOM:SZNUD3124DMT1G")
+		(at 304.8 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9f5ee89-6bef-4cb8-952d-7e4e51d0265b")
+		(property "Reference" "U8"
+			(at 311.15 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SZNUD3124DMT1G"
+			(at 311.15 199.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
+			(at 304.8 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf"
+			(at 304.8 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Automotive Dual Inductive Load Driver"
+			(at 304.8 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "2ff09028-97ca-4bc0-ab87-3f7e702f15e7")
+		)
+		(pin "2"
+			(uuid "c6a55220-4911-43d2-a744-b298547fa0dc")
+		)
+		(pin "1"
+			(uuid "483edbd6-a761-4e72-bc79-416203b5486d")
+		)
+		(pin "3"
+			(uuid "85970fa7-0498-4698-b587-05278b964a78")
+		)
+		(pin "6"
+			(uuid "4a8f0919-dc83-4e76-aba6-acc64a231be0")
+		)
+		(pin "4"
+			(uuid "dbebe43e-2700-4871-8855-b5a14e571b62")
+		)
+		(instances
+			(project "serial-relay-switch"
+				(path "/6e8e0d39-e51b-4511-a712-1d92a774977f"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 154.94 99.06 0)
 		(unit 1)
@@ -22232,7 +22764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:8195"
+		(property "Footprint" "CUSTOM:ScrewTerminal_Keystone_8195"
 			(at 17.78 43.18 0)
 			(hide yes)
 			(show_name no)

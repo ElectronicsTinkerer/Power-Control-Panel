@@ -915,7 +915,7 @@
 			)
 		)
 	)
-	(footprint "CUSTOM:8195"
+	(footprint "CUSTOM:ScrewTerminal_Keystone_8195"
 		(layer "F.Cu")
 		(uuid "0754dd36-7d69-46e4-831c-c9dbd77bfffd")
 		(at 55.55 99.76)
@@ -2036,7 +2036,7 @@
 			)
 		)
 	)
-	(footprint "CUSTOM:8195"
+	(footprint "CUSTOM:ScrewTerminal_Keystone_8195"
 		(layer "F.Cu")
 		(uuid "169ffd8b-6d37-4d7b-9298-c948d883282f")
 		(at 70.79 99.76)
@@ -4671,7 +4671,7 @@
 			)
 		)
 	)
-	(footprint "CUSTOM:8195"
+	(footprint "CUSTOM:ScrewTerminal_Keystone_8195"
 		(layer "F.Cu")
 		(uuid "3698935f-c219-4420-8c01-14784b5e0640")
 		(at 146.99 99.76)
@@ -6470,7 +6470,7 @@
 			)
 		)
 	)
-	(footprint "CUSTOM:8195"
+	(footprint "CUSTOM:ScrewTerminal_Keystone_8195"
 		(layer "F.Cu")
 		(uuid "5638f7fc-aed5-45b8-95bf-7e6e2720a4bf")
 		(at 86.03 99.76)
@@ -6745,7 +6745,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "CUSTOM:8195"
+	(footprint "CUSTOM:ScrewTerminal_Keystone_8195"
 		(layer "F.Cu")
 		(uuid "5b34ce10-cd8d-4b48-ad77-cd96cce83244")
 		(at 116.51 99.76)
@@ -6902,7 +6902,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "CUSTOM:8195"
+	(footprint "CUSTOM:ScrewTerminal_Keystone_8195"
 		(layer "F.Cu")
 		(uuid "5debdba7-606a-4ed9-985b-847ec37b208e")
 		(at 162.23 99.76)
@@ -7059,7 +7059,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "CUSTOM:8195"
+	(footprint "CUSTOM:ScrewTerminal_Keystone_8195"
 		(layer "F.Cu")
 		(uuid "5f725d4b-3534-460a-87df-ff402e9ecc74")
 		(at 131.75 99.76)
@@ -7426,7 +7426,7 @@
 			)
 		)
 	)
-	(footprint "CUSTOM:8195"
+	(footprint "CUSTOM:ScrewTerminal_Keystone_8195"
 		(layer "F.Cu")
 		(uuid "64beb975-6133-4ba5-92c8-13fb5071c609")
 		(at 44.755 56.58 -90)
@@ -8753,7 +8753,7 @@
 			)
 		)
 	)
-	(footprint "CUSTOM:8195"
+	(footprint "CUSTOM:ScrewTerminal_Keystone_8195"
 		(layer "F.Cu")
 		(uuid "7cca68b6-038c-4222-bf47-1e3415be8a9f")
 		(at 192.71 99.76)
@@ -11254,7 +11254,7 @@
 			)
 		)
 	)
-	(footprint "CUSTOM:8195"
+	(footprint "CUSTOM:ScrewTerminal_Keystone_8195"
 		(layer "F.Cu")
 		(uuid "9b53ea05-acbe-4236-afe6-e651dbe85e99")
 		(at 101.27 99.76)
@@ -14509,7 +14509,7 @@
 			)
 		)
 	)
-	(footprint "CUSTOM:8195"
+	(footprint "CUSTOM:ScrewTerminal_Keystone_8195"
 		(layer "F.Cu")
 		(uuid "cb5ed3ac-fab4-4088-8dfa-b02b6dcd0611")
 		(at 177.47 99.76)
@@ -19080,7 +19080,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2.3"
+		(gr_text "58.42"
 			(at 214.42 75.63 90)
 			(layer "Dwgs.User")
 			(uuid "021843a7-6b9f-4470-98bf-d30de5698d3e")
@@ -19118,7 +19118,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3.2"
+		(gr_text "81.28"
 			(at 163.5 31.3 0)
 			(layer "Dwgs.User")
 			(uuid "508112aa-a08a-4fc8-aad3-20b40d30ec59")
@@ -19156,7 +19156,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.3"
+		(gr_text "7.62"
 			(at 210.864 50.23 90)
 			(layer "Dwgs.User")
 			(uuid "762ebb9a-b138-434d-ab85-e909f7830bf4")
@@ -19194,7 +19194,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "6.4"
+		(gr_text "162.56"
 			(at 122.86 118.168 0)
 			(layer "Dwgs.User")
 			(uuid "f393911e-95e7-4ea7-8bd3-ea62d65965d7")
