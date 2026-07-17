@@ -25,7 +25,11 @@ This directory contains all the 2D/3D models for components which are 3D printed
 ├── Paddle-Switch.FCStd
 ├── Paddle-Switch-Fillet.step                  # Paddle switch handle, "rounded"
 ├── Relay-PCB-Insulator.FCStd                  # Electrical insulator for under the relay board
-└── Relay-PCB-Insulator-Unfold.dxf             # 0.03" polypropylene
+├── Relay-PCB-Insulator-Unfold.dxf             # 0.03" polypropylene
+├── serial-relay-panel.FCStd                   # Reference (potentially out of date) 3D model of the relay PCB
+├── serial-relay-panel.step
+├── serial-switch-panel.FCStd                  # Reference (potentially out of date) 3D model of the input PCB
+└── serial-switch-panel.step
 ```
 
 Everything has been designed in FreeCAD, but this directory also contains the STEP file from the latest "working" version of the file so you shouldn't need to edit the FCStd files unless you want to tweak them.
