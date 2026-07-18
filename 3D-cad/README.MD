@@ -16,6 +16,7 @@ This directory contains all the 2D/3D models for components which are 3D printed
 ├── Front-Panel-Rear-Plate.FCStd               # Mounting plate for switches and FP PCB
 ├── Front-Panel-Rear-Plate-Unfold.dxf          # FP PCB plate. 0.1" 5052 Al, K=0.4, R=0.125", 90 degree bend
 ├── Outlet-Panel.FCStd                         # Panel for Relay Board and Outlets.
+├── Outlet-Panel-Assy.FCStd                    # Minimal assembly to check component alignment
 ├── Outlet-Panel-Unfold.dxf                    # Panel for Relay Board and Outlets. 0.1" 5052 Al, K-0.4 R=0.125", 90 degree bend, M3 hardware
 ├── Paddle-Switch-Bracket-Cut2.step            # Mount/pivot bracket for paddle switch
 ├── Paddle-Switch-Bracket-Cut.step             # Mount/pivot, slightly wider for 3D printing
