@@ -1,17 +1,12 @@
 # Custom Remote-Controlled Power Distribution Panel
 
-**Insert cool, complete build picture here ;)**
+![Front image of the control panel, showing eight blue switches, grouped by fours, and a single red switch labeled "master" on the right side. Each group is separated by square U-bolts, acting as guards or handles to the panel. Below the switches are large orange indicator bulbs.](images/control-panel-front-installed.jpg)
 
-## On PCB versioning
+The control panel provides control over eight individually switched outlets for managing the numerous gizmoes plugged in to your workbench. In addition, there is a master switch which overrides the rest of the panel for shutting down all outputs.
 
-Each PCB has a version number in the format of `1.0A`. The basic format comes down to this:
+The device is constructed of two components. The first (pictured above) is the control panel. This contains a PCB that uses a shift register to parallel load the state of the input switches and send them over an ethernet-style cable to the second component, the relay board. The relay board is responsible for generating the clock and load signals used by the control panel. It also shifts in the data from the control panel and drives a bank of eight relays to control attached devices.
 
-```
-1.   - Major design revision. Full re-architect of the board with maybe a subsystem or two copied over.
-  0  - Minor schematic revision. Something that affects few components or connections.
-   A - Layout revision. For a given Major.Minor combination, this is the layout iteration number.
-```
+All the design files are included in this repo. For more background and pictures, checkout [my website](https://zrcn.org/power-control-panel.html).
 
-This version ID is frozen at time of order. This means that until someone clicks the "order design" button at the fab house, the above numbering system does not update. Since it is not uncommon to have more than one export operation when generating gerbers, when generating fabrication outputs, a number, starting at `0` is appended to the above version and maintained on the fabrication output archive. Each export operation increments this number. For example, if a board is exported and upon inspection of the gerbers, it is discovered that the drill file is missing or the file format is incorrect, the gerbers are re-exported and this fabrication ID is incremented. This ensures that the fabrication output version which is ordered can be identified by looking for the highest export ID for a given Major.Minor.Layout version.
-
-In case you're wondering, I have no idea where this scheme came from. I've been using it on boards for probably a decade :)
+![Relay board connected to outlets on the top side and protection circuitry on the right.](images/outlet-panel-back.JPG)
+![Front of the outlet panel, showing eight outlets, one IEC power inlet plug, the thermal breaker, and the surge supressor status light](images/outlet-panel-front.JPG)
