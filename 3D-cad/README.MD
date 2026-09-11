@@ -21,7 +21,9 @@ This directory contains all the 2D/3D models for components which are 3D printed
 ├── Paddle-Switch-Bracket-Cut2.step            # Mount/pivot bracket for paddle switch
 ├── Paddle-Switch-Bracket-Cut.step             # Mount/pivot, slightly wider for 3D printing
 ├── Paddle-Switch-Bracket.FCStd
-├── Paddle-Switch-Bracket-Unfold.dxf           # Mount/pivot. 0.03" thick K=0.36, 90 degree bends
+├── Paddle-Switch-Bracket-Unfold.dxf           # Mount/pivot. mild steel 0.03" thick K=0.36, 90 degree bends
+├── Paddle-Switch-Bracket-inner-die.FCStd
+├── Paddle-Switch-Bracket-inner-die-v1.0A0.step # "Die" for forming the Paddle-Switch-Bracket
 ├── Paddle-Switch-Cut.step                     # Paddle switch handle, "square"
 ├── Paddle-Switch.FCStd
 ├── Paddle-Switch-Fillet.step                  # Paddle switch handle, "rounded"
@@ -59,10 +61,29 @@ I have printed my copies in PETG (Prusa and Creality) and the following settings
 * Wait for the bed to cool completely before removing!
 * Note: there is also a `.dxf` file if you want this made from sheet metal. See the dir listing comments for details.
 
+**paddle switch bracket die**
+
+* Color: any
+* 0.15mm or smaller layer height
+* 100% infil
+* I used PETG, but I imagine other materials would work fine.
+* This is not a piece used in the final assembly, but rather a tool to enable bending of the paddle switch bracket, should you decide to have it made from sheet metal. To do this, print the die and screw down the bracket to the die at one end plus the center hole. Make sure all holes are aligned. Now use a hammer and bend the tabs down until they are nearly flush with the sides of the die. I was able to get fairly consistent results at about 2-3 minute cycle time per switch bracket but YMMV. (Alternatively, just have the sheet metal fab house bend these).
+
 **paddle switch**
 
 * Color: any ("Chalky blue" pictured above)
 * 0.1mm layer height
 * Print on its side like the above image
 * Use supports for all overhangs (around the pivot and the inside ledge)
+
+## Non-printed items
+
+To assemble the outlet panel, you'll need the following components:
+
+* `LSP10120S` from Littelfuse (surge supressor, wire in parallel mode)
+* `FL1M-6CW-4-R110V` or any other line voltage panel-mount indicator
+* `3-2486200-9` from TE Connectivity or similar panel mount circuit breaker
+* `15SRB8-W` from TE Connectivity or similar 15A IEC inlet plug
+
+My recommended power cord is the `P007-006-15D` as it's rated for 15A and has a nice 90-degree plug for fitting behind the workbench.
 
