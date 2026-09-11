@@ -1,6 +1,6 @@
 # Custom Remote-Controlled Power Distribution Panel
 
-![Front image of the control panel, showing eight blue switches, grouped by fours, and a single red switch labeled "master" on the right side. Each group is separated by square U-bolts, acting as guards or handles to the panel. Below the switches are large orange indicator bulbs.](images/control-panel-front-installed.jpg)
+![Front image of the control panel, showing eight blue switches, grouped by fours, and a single red switch labeled "master" on the right side. Each group is separated by square U-bolts, acting as guards or handles to the panel. Below the switches are large orange indicator bulbs.](images/control-panel-front-installed.JPG)
 
 The control panel provides control over eight individually switched outlets for managing the numerous gizmoes plugged in to your workbench. In addition, there is a master switch which overrides the rest of the panel for shutting down all outputs.
 
